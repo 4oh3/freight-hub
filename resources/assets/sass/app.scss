@@ -10,21 +10,15 @@
 * {
 	margin: 0;
 	padding: 0;
-	overflow-x: scroll;
-	overflow-y: hidden;
 	white-space: nowrap;
 }
 
 // Bootstrap Mods
-
 .navbar-toggler {
 	border: none;
 	padding: 1em;
+	margin-left: 1em;
 }
-
-// .navbar-toggler-icon {
-// 	padding: 1em;
-// }
 
 // Globals
 button:focus {
@@ -39,31 +33,48 @@ a:focus {
 	color: $light-blue;
 }
 
+.list-group-item {
+	border: none;
+}
+
 // Navbar
 nav {
 	border-bottom: solid 1px #eee;
 	margin-bottom: 2em;
 
-	.nav-item {
-		padding: 1em 2em;
+	.list-group-item {
+		padding-top: 1.469em;
+		padding-bottom: 1.469em;
 	}
 
-	.nav-item.dropdown {
-		padding-right: 0;
+	a {
+		font-weight: lighter;
+		color: #6c757d;
+	}
+
+	a:hover {
+		color: black;
+		text-decoration: none;
 	}
 
 	.fa-phone-square {
 		padding-right: 0.75em;
+	}
+	
+	.phone-link {
+		color: $light-blue;
 	}
 
 	.fa-globe {
 		padding-right: 0.75em;
 	}
 
+	.fa-angle-down {
+		padding-left: 0.75em;
+		color: black;
+	}
+
 	@media (min-width: 991.98px) {
-		.phone-link {
-			padding-left: 0;
-		}
 		.language-link {
 			padding-left: 0;
 		}
@@ -73,12 +84,20 @@ nav {
 // Secondary Nav
 
 .secondary-nav {
+	font-size: 0.95em;
+	font-weight: lighter;
+
 	a {
 		color: black;
 	}
 
 	a:hover {
 		text-decoration: none;
+		// Add something for UX
+	}
+
+	.list-group > li:nth-of-type(1) {
+		font-weight: bold;
 	}
 
 	.fa-user-circle {
@@ -90,17 +109,24 @@ nav {
 	}
 
 	.signup-button {
-		background: $light-blue;
+		background-color: $light-blue;
 		color: white;
-		padding: 1em 2.5em;
+		padding: 1.5em 2em;
+		font-weight: lighter;
 	}
 
-	.list-group > li:nth-of-type(1) {
-		font-weight: bold;
+	.signup-button:hover {
+		background-color: $darker-light-blue;
 	}
 
-	.list-group-item {
-		border: none;
-		max-width: 200px;
+	@media (max-width: 1199px) {		
+		.mobile-divider {
+			border-bottom: solid 1px #eee;
+			margin-bottom: 1em;
+		}
+
+		.signup-button {
+			padding: 1em 2em;
+		}
 	}
 }

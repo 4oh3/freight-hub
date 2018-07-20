@@ -7,7 +7,7 @@
 
 require('./bootstrap');
 
-window.Vue = require('vue');
+// window.Vue = require('vue');
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -15,8 +15,26 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+// Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
-const app = new Vue({
-    el: '#app'
-});
+// const app = new Vue({
+//     el: '#app'
+// });
+
+//  //  //  //  //  //  Custom JS //  //  //  //  //  //
+
+// if ($(window).width() < 1200) {
+//     $("#mobile-divider").addClass("dropdown-divider");
+//     console.log('Below 1200');
+// } else {
+//     $("#mobile-divider").removeClass("dropdown-divider");
+//     console.log('Aobve 1200');
+// }
+
+// $(window).resize(function () {
+//     if ($(window).width() <= 1200) {
+//         $('#mobile-divider').addClass("mobile-divider");
+//     } else {
+//         $('#mobile-divider').removeClass("mobile-divider");
+//     }
+// });
