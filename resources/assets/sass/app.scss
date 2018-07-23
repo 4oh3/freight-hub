@@ -13,11 +13,19 @@
 	white-space: nowrap;
 }
 
+body {
+	// overflow: hidden;
+}
+
 // Bootstrap Mods
 .navbar-toggler {
 	border: none;
 	padding: 1em;
 	margin-left: 1em;
+}
+
+.list-group-item {
+	border: none;
 }
 
 // Globals
@@ -31,10 +39,6 @@ a:focus {
 
 .fas {
 	color: $light-blue;
-}
-
-.list-group-item {
-	border: none;
 }
 
 // Navbar
@@ -60,7 +64,7 @@ nav {
 	.fa-phone-square {
 		padding-right: 0.75em;
 	}
-	
+
 	.phone-link {
 		color: $light-blue;
 	}
@@ -73,12 +77,6 @@ nav {
 		padding-left: 0.75em;
 		color: black;
 	}
-
-	@media (min-width: 991.98px) {
-		.language-link {
-			padding-left: 0;
-		}
-	}
 }
 
 // Secondary Nav
@@ -86,6 +84,7 @@ nav {
 .secondary-nav {
 	font-size: 0.95em;
 	font-weight: lighter;
+	padding-bottom: 2.25em;
 
 	a {
 		color: black;
@@ -119,7 +118,7 @@ nav {
 		background-color: $darker-light-blue;
 	}
 
-	@media (max-width: 1199px) {		
+	@media (max-width: 1199px) {
 		.mobile-divider {
 			border-bottom: solid 1px #eee;
 			margin-bottom: 1em;
@@ -128,5 +127,81 @@ nav {
 		.signup-button {
 			padding: 1em 2em;
 		}
+	}
+}
+
+//Hero Section
+
+.hero-section {
+	margin: 0 auto;
+	width: 97%;
+	height: 75vh;
+	background: url("/images/cargo-ship.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.50);
+    background-blend-mode: multiply;
+	color: white;
+
+	.hero-title h2 {
+		font-weight: lighter;
+		font-size: 4em;
+	}
+
+	.hero-title {
+		margin-bottom: 3em;
+	}
+
+	.hero-description {
+		font-family: $secondary-font;
+		font-weight: lighter;
+		font-size: 1.25em;
+		line-height: 0.85em;
+		margin-bottom: 4.5em;
+	}
+
+	.hero-cta {
+		font-family: $secondary-font;
+		font-weight: lighter;
+		margin-bottom: 10em;
+	}
+
+	.hero-cta .fa-clipboard {
+		padding-right: 0.5em;
+		padding-left: 1.5em;
+	}
+
+	.hero-cta .fa-angle-right {
+		padding-left: 0.5em;
+		color: white;
+	}
+
+	.hero-cta a:nth-of-type(1) {
+		background-color: $light-blue;
+		padding: 1.25em 2em;
+	}
+
+	.hero-cta a {
+		color: white;
+	}
+
+	.hero-cta a:hover {
+		text-decoration: none;
+	}
+
+	.hero-cta a:nth-of-type(1):hover {
+		background-color: $darker-light-blue;
+	}
+
+	.hero-image-description {
+		text-transform: uppercase;
+		color: rgba(255, 255, 255, 0.35);
+		border-bottom: 2px solid rgba(255, 255, 255, 0.35);
+		font-size: 0.75em;
+	}
+
+	.hero-image-description p {
+		height: 3.5em;
 	}
 }

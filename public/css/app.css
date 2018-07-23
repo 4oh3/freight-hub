@@ -10481,6 +10481,10 @@ a.text-dark:focus {
   margin-left: 1em;
 }
 
+.list-group-item {
+  border: none;
+}
+
 button:focus {
   outline: none;
 }
@@ -10491,10 +10495,6 @@ a:focus {
 
 .fas {
   color: #22a5eb;
-}
-
-.list-group-item {
-  border: none;
 }
 
 nav {
@@ -10534,15 +10534,10 @@ nav .fa-angle-down {
   color: black;
 }
 
-@media (min-width: 991.98px) {
-  nav .language-link {
-    padding-left: 0;
-  }
-}
-
 .secondary-nav {
   font-size: 0.95em;
   font-weight: lighter;
+  padding-bottom: 2.25em;
 }
 
 .secondary-nav a {
@@ -10585,5 +10580,79 @@ nav .fa-angle-down {
   .secondary-nav .signup-button {
     padding: 1em 2em;
   }
+}
+
+.hero-section {
+  margin: 0 auto;
+  width: 97%;
+  height: 75vh;
+  background: url("/images/cargo-ship.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  color: white;
+}
+
+.hero-section .hero-title h2 {
+  font-weight: lighter;
+  font-size: 4em;
+}
+
+.hero-section .hero-title {
+  margin-bottom: 3em;
+}
+
+.hero-section .hero-description {
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  font-size: 1.25em;
+  line-height: 0.85em;
+  margin-bottom: 4.5em;
+}
+
+.hero-section .hero-cta {
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  margin-bottom: 10em;
+}
+
+.hero-section .hero-cta .fa-clipboard {
+  padding-right: 0.5em;
+  padding-left: 1.5em;
+}
+
+.hero-section .hero-cta .fa-angle-right {
+  padding-left: 0.5em;
+  color: white;
+}
+
+.hero-section .hero-cta a:nth-of-type(1) {
+  background-color: #22a5eb;
+  padding: 1.25em 2em;
+}
+
+.hero-section .hero-cta a {
+  color: white;
+}
+
+.hero-section .hero-cta a:hover {
+  text-decoration: none;
+}
+
+.hero-section .hero-cta a:nth-of-type(1):hover {
+  background-color: #1499df;
+}
+
+.hero-section .hero-image-description {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.35);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.35);
+  font-size: 0.75em;
+}
+
+.hero-section .hero-image-description p {
+  height: 3.5em;
 }
 

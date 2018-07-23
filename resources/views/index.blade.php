@@ -9,6 +9,7 @@
 	<title>Freight Hub</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
 	 crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Karla:400,700|Lato:300,400,700" rel="stylesheet">
 </head>
 
 <body>
@@ -51,9 +52,9 @@
 			<div class="col-2">
 				<ul class="list-group">
 					<li class="dropdown list-group-item">
-						<a class="language-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-						aria-expanded="false">
-							<i class="fas fa-globe"></i>Language<i class="fas fa-angle-down"></i>
+						<a class="language-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="fas fa-globe"></i>Language
+							<i class="fas fa-angle-down"></i>
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 							<a class="dropdown-item" href="#">English</a>
@@ -66,14 +67,15 @@
 	</nav>
 
 	<div class="secondary-nav row">
-		<div class=" col-xs-12 col-xl-4">
-		<ul class="list-group">
-				<li class="list-group-item"><a href="/">FreightHub</a>
+		<div class="col-xs-12 col-xl-4">
+			<ul class="list-group">
+				<li class="list-group-item">
+					<a href="/">FreightHub</a>
 				</li>
 			</ul>
 			<div class="mobile-divider"></div>
 		</div>
-		<div class=" col-xs-12 col-xl-2">
+		<div class="col-xs-12 col-xl-2">
 			<ul class="list-group">
 				<li class="list-group-item">
 					<a href="#">Freight Hub</a>
@@ -90,7 +92,7 @@
 			</ul>
 			<div class="mobile-divider"></div>
 		</div>
-		<div class=" col-xs-12 col-xl-2">
+		<div class="col-xs-12 col-xl-2">
 			<ul class="list-group">
 				<li class="list-group-item">
 					<a href="#">About Us</a>
@@ -104,17 +106,18 @@
 			</ul>
 			<div class="mobile-divider"></div>
 		</div>
-		<div class=" col-xs-12 col-xl-2">
+		<div class="col-xs-12 col-xl-2">
 			<ul class="list-group">
 				<li class="list-group-item">
 					<a href="#">
-						<i class="fas fa-user-circle"></i>Sign In<i class="fas fa-angle-right"></i>
+						<i class="fas fa-user-circle"></i>Sign In
+						<i class="fas fa-angle-right"></i>
 					</a>
 				</li>
 			</ul>
 			<div class="mobile-divider"></div>
 		</div>
-		<div class=" col-xs-12 col-xl-2">
+		<div class="col-xs-12 col-xl-2">
 			<ul class="list-group">
 				<li class="list-group-item">
 					<a href="#" class="signup-button">Signup Now</a>
@@ -122,6 +125,30 @@
 			</ul>
 		</div>
 	</div>
+
+	
+
+	<section class="hero-section row align-items-center">
+		<div class="container">
+			<div class="hero-title">
+				<h2>Global Freight</h2>
+				<h2>Forwarder</h2>
+			</div>
+			<div class="hero-description">
+				<p>Ship more freight faster and cheaper</p>
+				<p>Modern freight forwarding made easy</p>
+			</div>
+			<div class="hero-cta">
+				<a href="#">Talk with us about freight</a>
+				<i class="fas fa-clipboard"></i>
+				<a href="#">Learn more</a>
+				<i class="fas fa-angle-right"></i>
+			</div>
+			<div class="hero-image-description">
+				<p>Sea Transportation</p>
+			</div>
+		</div>
+	</section>
 
 	<!-- Script Imports-->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -131,7 +158,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
 	 crossorigin="anonymous"></script>
 
-	 <!-- <script src="/js/app.js"></script> -->
+	<!-- <script src="/js/app.js"></script> -->
 </body>
 
 </html>
