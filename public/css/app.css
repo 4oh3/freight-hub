@@ -10472,7 +10472,6 @@ a.text-dark:focus {
 * {
   margin: 0;
   padding: 0;
-  white-space: nowrap;
 }
 
 .navbar-toggler {
@@ -10483,6 +10482,10 @@ a.text-dark:focus {
 
 .list-group-item {
   border: none;
+}
+
+.row.no-margin {
+  margin: 0 !important;
 }
 
 button:focus {
@@ -10500,6 +10503,7 @@ a:focus {
 nav {
   border-bottom: solid 1px #eee;
   margin-bottom: 2em;
+  white-space: nowrap;
 }
 
 nav .list-group-item {
@@ -10537,7 +10541,7 @@ nav .fa-angle-down {
 .secondary-nav {
   font-size: 0.95em;
   font-weight: lighter;
-  padding-bottom: 2.25em;
+  white-space: nowrap;
 }
 
 .secondary-nav a {
@@ -10583,9 +10587,10 @@ nav .fa-angle-down {
 }
 
 .hero-section {
-  margin: 0 auto;
-  width: 97%;
+  width: calc(100% - 70px);
   height: 75vh;
+  min-height: 600px;
+  margin: 2.15em auto;
   background: url("/images/cargo-ship.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -10615,7 +10620,7 @@ nav .fa-angle-down {
 .hero-section .hero-cta {
   font-family: "Lato", sans-serif;
   font-weight: lighter;
-  margin-bottom: 10em;
+  margin-bottom: 8.5em;
 }
 
 .hero-section .hero-cta .fa-clipboard {
@@ -10654,5 +10659,114 @@ nav .fa-angle-down {
 
 .hero-section .hero-image-description p {
   height: 3.5em;
+}
+
+@media (max-width: 1199px) {
+  .hero-section {
+    width: 100%;
+  }
+
+  .hero-section .hero-title {
+    margin-bottom: 1.5em;
+  }
+
+  .hero-section .hero-title h2 {
+    font-size: 3em;
+  }
+
+  .hero-section .hero-description {
+    font-size: 1.15em;
+    margin-bottom: 1.5em;
+  }
+
+  .hero-section .hero-cta {
+    margin-bottom: 3em;
+  }
+
+  .hero-section .hero-cta .fa-clipboard {
+    padding-left: 0;
+  }
+
+  .hero-section .hero-cta a:nth-of-type(1) {
+    display: block;
+    margin-bottom: 1.5em;
+  }
+
+  .hero-section .hero-cta a:nth-of-type(1) {
+    padding: 1.25em 1.25em;
+  }
+}
+
+.benefits-section {
+  width: calc(100% - 70px);
+  margin: 4.3em auto;
+}
+
+.benefits-section .benefits-title {
+  font-family: "Lato", sans-serif;
+  color: rgba(0, 0, 0, 0.35);
+  padding-left: 0;
+}
+
+.benefits-section .benefits-title h3 {
+  font-size: 1em;
+}
+
+.benefits-section .benefits-description {
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  padding-left: 0;
+  font-size: 1.3em;
+}
+
+@media (min-width: 1199px) {
+  .benefits-section {
+    height: 15vh;
+  }
+}
+
+.features-section {
+  border-top: 1px solid #eee;
+}
+
+.features-section a {
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  font-size: 1.15em;
+  color: #D0D0D0;
+  border-bottom: solid 1px #eee;
+  padding: 1.5em 7em;
+}
+
+.features-section .far {
+  font-size: 1.5em;
+  padding-right: 1em;
+}
+
+.features-section .selected-filter {
+  margin: 0 auto;
+}
+
+.features-section .selected-filter .nav-link.active,
+.features-section .selected-filter .show > .nav-link,
+.features-section .selected-filter > a {
+  color: black;
+  border-bottom: 2px solid #22a5eb;
+}
+
+.features-section .selected-filter .nav-link.active .far {
+  color: #22a5eb;
+}
+
+.features-section .selected-filter a:hover {
+  color: black;
+}
+
+.features-section .selected-filter a:hover .far {
+  color: #22a5eb;
+}
+
+.features-section .tab-pane {
+  height: 75vh;
 }
 

@@ -1,11 +1,10 @@
-
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap');
+// require('./bootstrap');
 
 // window.Vue = require('vue');
 
@@ -23,18 +22,3 @@ require('./bootstrap');
 
 //  //  //  //  //  //  Custom JS //  //  //  //  //  //
 
-// if ($(window).width() < 1200) {
-//     $("#mobile-divider").addClass("dropdown-divider");
-//     console.log('Below 1200');
-// } else {
-//     $("#mobile-divider").removeClass("dropdown-divider");
-//     console.log('Aobve 1200');
-// }
-
-// $(window).resize(function () {
-//     if ($(window).width() <= 1200) {
-//         $('#mobile-divider').addClass("mobile-divider");
-//     } else {
-//         $('#mobile-divider').removeClass("mobile-divider");
-//     }
-// });

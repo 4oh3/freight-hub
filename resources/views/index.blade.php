@@ -4,16 +4,16 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/css/app.css">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Freight Hub</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
 	 crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Karla:400,700|Lato:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="/css/app.css">
 </head>
 
 <body>
-	<nav class="navbar-expand-xl navbar-light row">
+	<nav class="navbar-expand-xl navbar-light">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
 		 aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -23,7 +23,8 @@
 			<div class="col-4">
 				<ul class="list-group">
 					<li class="list-group-item phone-link">
-						<a href="tel:+4456795818" class="phone-link"><i class="fas fa-phone-square"></i>+ 44 567 958 18</a>
+						<a href="tel:+4456795818" class="phone-link">
+							<i class="fas fa-phone-square"></i>+ 44 567 958 18</a>
 					</li>
 				</ul>
 			</div>
@@ -66,7 +67,7 @@
 		</div>
 	</nav>
 
-	<div class="secondary-nav row">
+	<div class="secondary-nav row no-margin">
 		<div class="col-xs-12 col-xl-4">
 			<ul class="list-group">
 				<li class="list-group-item">
@@ -126,8 +127,6 @@
 		</div>
 	</div>
 
-	
-
 	<section class="hero-section row align-items-center">
 		<div class="container">
 			<div class="hero-title">
@@ -150,6 +149,54 @@
 		</div>
 	</section>
 
+	<section class="benefits-section row">
+		<div class="benefits-title col-lg-6">
+			<h3>Benefits introduction</h3>
+		</div>
+		<div class="benefits-description col-lg-4 ">
+			See how FreighHub is helping businsses like yours to streamline their logistics. Ship more freight faster and cheaper – modern
+			freight forwarding made easy
+		</div>
+	</section>
+
+	<section class="features-section">
+		<ul class="nav selected-filter justify-content-center" id="pills-tab" role="tablist">
+			<li class="nav-item">
+				<a class="nav-link active" id="reliability-tab" data-toggle="pill" href="#reliability" role="tab" aria-controls="reliability"
+				 aria-selected="true"><i class="far fa-calendar-alt"></i>Reliability</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="transparency-tab" data-toggle="pill" href="#transparency" role="tab" aria-controls="transparency"
+				 aria-selected="false"><i class="far fa-map"></i>Transparency</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="efficiency-tab" data-toggle="pill" href="#efficiency" role="tab" aria-controls="efficiency"
+				 aria-selected="false"><i class="far fa-chart-bar"></i>Efficiency</a>
+			</li>
+		</ul>
+		<div class="tab-content" id="tabContent">
+			<div class="tab-pane fade show active row no-margin align-items-center" id="reliability" role="tabpanel" aria-labelledby="reliability-tab">
+			<!-- <div class="tab-details row no-margin align-items-center"> -->
+			<div class="col-4">	
+			<h3>Shipments should be on time</h3>
+				<h3>We make it happen</h3>
+				<p>Our mix of data driven technology and human logistics experts solves problems before they occur. Track you shipments and get a notification for you ETA. There is no easier way to structure based on reliable data.</p>
+			</div>
+			<!-- </div> -->
+			</div>
+			<!-- <div class="tab-pane fade" id="transparency" role="tabpanel" aria-labelledby="transparency-tab">
+				<h3>You see what we see</h3>
+				<p>Never be out of the loop – you're not treated as a customer, you're treated like one of us. This makes aspects such as shipping times, cost and any bumps on the road fully visable ahead of time.</p>
+			</div>
+			<div class="tab-pane fade" id="efficiency" role="tabpanel" aria-labelledby="efficiency-tab">
+				<h3>Award winning delivery times</h3>
+				<p>Rated #1 by 'Consumer Reports 2018' for fastest shipping times when compared to the next top 3 competetors. Choose us and get your freight on time.</p>
+			</div>
+		</div> -->
+	</section>
+
+
+
 	<!-- Script Imports-->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 	 crossorigin="anonymous"></script>
@@ -158,7 +205,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
 	 crossorigin="anonymous"></script>
 
-	<!-- <script src="/js/app.js"></script> -->
+	<script src="/js/app.js"></script>
 </body>
 
 </html>

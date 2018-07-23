@@ -10,11 +10,6 @@
 * {
 	margin: 0;
 	padding: 0;
-	white-space: nowrap;
-}
-
-body {
-	// overflow: hidden;
 }
 
 // Bootstrap Mods
@@ -26,6 +21,10 @@ body {
 
 .list-group-item {
 	border: none;
+}
+
+.row.no-margin {
+	margin: 0 !important;
 }
 
 // Globals
@@ -43,8 +42,9 @@ a:focus {
 
 // Navbar
 nav {
-	border-bottom: solid 1px #eee;
+	border-bottom: solid 1px $light-grey;
 	margin-bottom: 2em;
+	white-space: nowrap;
 
 	.list-group-item {
 		padding-top: 1.469em;
@@ -84,7 +84,7 @@ nav {
 .secondary-nav {
 	font-size: 0.95em;
 	font-weight: lighter;
-	padding-bottom: 2.25em;
+	white-space: nowrap;
 
 	a {
 		color: black;
@@ -120,7 +120,7 @@ nav {
 
 	@media (max-width: 1199px) {
 		.mobile-divider {
-			border-bottom: solid 1px #eee;
+			border-bottom: solid 1px $light-grey;
 			margin-bottom: 1em;
 		}
 
@@ -133,15 +133,16 @@ nav {
 //Hero Section
 
 .hero-section {
-	margin: 0 auto;
-	width: 97%;
+	width: calc(100% - 70px);
 	height: 75vh;
+	min-height: 600px;
+	margin: 2.15em auto;
 	background: url("/images/cargo-ship.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	background-color: rgba(0, 0, 0, 0.50);
-    background-blend-mode: multiply;
+	background-color: rgba(0, 0, 0, 0.5);
+	background-blend-mode: multiply;
 	color: white;
 
 	.hero-title h2 {
@@ -164,7 +165,7 @@ nav {
 	.hero-cta {
 		font-family: $secondary-font;
 		font-weight: lighter;
-		margin-bottom: 10em;
+		margin-bottom: 8.5em;
 	}
 
 	.hero-cta .fa-clipboard {
@@ -203,5 +204,120 @@ nav {
 
 	.hero-image-description p {
 		height: 3.5em;
+	}
+
+	@media (max-width: 1199px) {
+		width: 100%;
+
+		.hero-title {
+			margin-bottom: 1.5em;
+		}
+
+		.hero-title h2 {
+			font-size: 3em;
+		}
+
+		.hero-description {
+			font-size: 1.15em;
+			margin-bottom: 1.5em;
+		}
+
+		.hero-cta {
+			margin-bottom: 3em;
+		}
+
+		.hero-cta .fa-clipboard {
+			padding-left: 0;
+		}
+
+		.hero-cta a:nth-of-type(1) {
+			display: block;
+			margin-bottom: 1.5em;
+		}
+
+		.hero-cta a:nth-of-type(1) {
+			padding: 1.25em 1.25em;
+		}
+	}
+}
+
+// Benefits Section
+
+.benefits-section {
+	width: calc(100% - 70px);
+	// height: 15vh;
+	margin: 4.3em auto;
+
+	.benefits-title {
+		font-family: $secondary-font;
+		color: rgba(0, 0, 0, 0.35);
+		padding-left: 0;
+	}
+
+	.benefits-title h3 {
+		font-size: 1em;
+	}
+
+	.benefits-description {
+		font-family: $secondary-font;
+		font-weight: lighter;
+		padding-left: 0;
+		font-size: 1.3em;
+	}
+
+	@media (min-width: 1199px) {
+			
+		height: 15vh;
+
+	}
+}
+
+// Features Section
+
+.features-section {
+	// margin: 0 auto;
+	border-top: 1px solid $light-grey;
+	// height: 75vh;
+
+	a {
+		font-family: $secondary-font;
+		font-weight: lighter;
+		font-size: 1.15em;
+		color: #D0D0D0;
+		border-bottom: solid 1px $light-grey;
+		padding: 1.5em 7em;
+	}
+
+	.far {
+		font-size: 1.5em;
+		padding-right: 1em;
+	}
+
+	.selected-filter {
+		// margin-bottom: 2.25em;
+		margin: 0 auto;
+	}
+
+	.selected-filter .nav-link.active,
+	.selected-filter .show > .nav-link,
+	.selected-filter > a {
+		color: black;
+		border-bottom: 2px solid $light-blue;
+	}
+
+	.selected-filter .nav-link.active .far {
+		color: $light-blue;
+	}
+
+	.selected-filter a:hover {
+		color: black;
+	}
+
+		.selected-filter a:hover .far {
+		color: $light-blue;
+	}
+
+	.tab-pane {
+		height: 75vh;
 	}
 }
