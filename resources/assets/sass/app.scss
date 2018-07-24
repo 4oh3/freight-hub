@@ -274,23 +274,30 @@ nav {
 .features-section {
 	height: 75vh;
 	margin: 0 auto;
-	height: 75vh;
 
 	.far {
 		font-size: 1.5em;
 		padding-right: 1em;
 	}
 
-	.tab-wrapper {
-		margin: 6em 0;
+	.tab-pane-container {
+		padding: 6em 0;
 		border-bottom: 1px solid $light-grey;
+	}
+
+	.tab-image-container {
+		padding-right: 0;
+	}
+
+	.tab-content > .active {
+		display: flex;
 	}
 
 	.selected-filter a {
 		font-family: $secondary-font;
 		font-weight: lighter;
 		font-size: 1.15em;
-		color: #d0d0d0;
+		color: $medium-grey;
 		border-top: 1px solid $light-grey;
 		border-bottom: solid 1px $light-grey;
 		padding: 1.5em 0;
@@ -308,19 +315,25 @@ nav {
 	}
 
 	.selected-filter a:hover .far,
-	.selected-filter .nav-link.active .far  {
+	.selected-filter .nav-link.active .far {
 		color: $light-blue;
 	}
 
 	.tab-title {
-		margin-bottom: 4.5em;
+		margin-bottom: 2.5em;
+	}
+
+	.tab-title h3 {
+		font-family: $secondary-font;
+		font-size: 2em;
+		font-weight: lighter;
 	}
 
 	.tab-description {
-		margin-bottom: 4.5em;
-	}
-
-	.tab-cta {
+		font-family: $secondary-font;
+		font-size: 1.15em;
+		font-weight: lighter;
+		color: $medium-grey;
 		margin-bottom: 4.5em;
 	}
 
@@ -341,6 +354,16 @@ nav {
 		color: black;
 	}
 
+	.tab-image {
+		overflow: hidden;
+	}
+
+	.tab-image img {
+		padding: 3em 0 0 1.5em;
+		width: 125%;
+		height: 125%;
+	}
+
 	@media (min-width: 992px) {
 		.nav-item:nth-of-type(1) {
 			padding-right: 0;
@@ -351,6 +374,18 @@ nav {
 		}
 		.nav-item:nth-of-type(3) {
 			padding-left: 0;
+		}
+	}
+
+	@media (max-width: 991px) {
+		.tab-image {
+			display: none;
+		}
+	}
+
+	@media (max-width: 1199px) {
+		.tab-image img {
+			padding: 6em 0 0 1.5em;
 		}
 	}
 }

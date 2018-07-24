@@ -180,9 +180,10 @@
 
 		<!-- Reliability Tab -->
 
+		<!-- Left Side -->
 		<div class="tab-content" id="tabContent">
-			<div class="tab-pane fade show active row no-margin align-items-center " id="reliability" role="tabpanel" aria-labelledby="reliability-tab">
-				<div class="tab-wrapper col-lg-5 pl-0">
+			<div class="tab-pane fade show active row no-margin justify-content-between" id="reliability" role="tabpanel" aria-labelledby="reliability-tab">
+				<div class="tab-pane-container col-lg-4">
 					<div class="tab-title">
 						<h3>Shipments should be on time</h3>
 						<h3>We make it happen</h3>
@@ -198,12 +199,19 @@
 						</a>
 					</div>
 				</div>
+
+				<!-- Right Side -->
+				<div class="tab-image-container col-lg-7">
+					<div class="tab-image">
+						<img src="/images/ipad-mockup.png" alt="">
+					</div>
+				</div>
 			</div>
 
 			<!-- Transparency Tab -->
 
-			<div class="tab-pane fade row no-margin align-items-center " id="transparency" role="tabpanel" aria-labelledby="transparency-tab">
-				<div class="tab-wrapper col-lg-5 pl-0">
+			<div class="tab-pane fade row no-margin justify-content-between" id="transparency" role="tabpanel" aria-labelledby="transparency-tab">
+				<div class="tab-pane-container col-lg-4">
 					<div class="tab-title">
 						<h3>You see what we see</h3>
 					</div>
@@ -221,8 +229,8 @@
 
 			<!-- Efficiency Tab -->
 
-			<div class="tab-pane fade row no-margin align-items-center " id="efficiency" role="tabpanel" aria-labelledby="efficiency-tab">
-				<div class="tab-wrapper col-lg-5 pl-0">
+			<div class="tab-pane fade row no-margin justify-content-between" id="efficiency" role="tabpanel" aria-labelledby="efficiency-tab">
+				<div class="tab-pane-container col-lg-4">
 					<div class="tab-title">
 						<h3>Award winning delivery times</h3>
 					</div>
