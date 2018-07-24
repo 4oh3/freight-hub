@@ -68,7 +68,7 @@
 	</nav>
 
 	<div class="secondary-nav row no-margin">
-		<div class="col-xs-12 col-xl-4">
+		<div class="col-xl-4">
 			<ul class="list-group">
 				<li class="list-group-item">
 					<a href="/">FreightHub</a>
@@ -76,7 +76,7 @@
 			</ul>
 			<div class="mobile-divider"></div>
 		</div>
-		<div class="col-xs-12 col-xl-2">
+		<div class="col-xl-2">
 			<ul class="list-group">
 				<li class="list-group-item">
 					<a href="#">Freight Hub</a>
@@ -93,7 +93,7 @@
 			</ul>
 			<div class="mobile-divider"></div>
 		</div>
-		<div class="col-xs-12 col-xl-2">
+		<div class="col-xl-2">
 			<ul class="list-group">
 				<li class="list-group-item">
 					<a href="#">About Us</a>
@@ -107,7 +107,7 @@
 			</ul>
 			<div class="mobile-divider"></div>
 		</div>
-		<div class="col-xs-12 col-xl-2">
+		<div class="col-xl-2">
 			<ul class="list-group">
 				<li class="list-group-item">
 					<a href="#">
@@ -118,7 +118,7 @@
 			</ul>
 			<div class="mobile-divider"></div>
 		</div>
-		<div class="col-xs-12 col-xl-2">
+		<div class="col-xl-2">
 			<ul class="list-group">
 				<li class="list-group-item">
 					<a href="#" class="signup-button">Signup Now</a>
@@ -139,9 +139,10 @@
 			</div>
 			<div class="hero-cta">
 				<a href="#">Talk with us about freight</a>
-				<i class="fas fa-clipboard"></i>
-				<a href="#">Learn more</a>
-				<i class="fas fa-angle-right"></i>
+				<a href="#">
+					<i class="fas fa-clipboard"></i>Learn more
+					<i class="fas fa-angle-right"></i>
+				</a>
 			</div>
 			<div class="hero-image-description">
 				<p>Sea Transportation</p>
@@ -149,7 +150,7 @@
 		</div>
 	</section>
 
-	<section class="benefits-section row">
+	<section class="benefits-section container row">
 		<div class="benefits-title col-lg-6">
 			<h3>Benefits introduction</h3>
 		</div>
@@ -159,40 +160,85 @@
 		</div>
 	</section>
 
-	<section class="features-section">
-		<ul class="nav selected-filter justify-content-center" id="pills-tab" role="tablist">
-			<li class="nav-item">
+	<section class="features-section container">
+		<ul class="nav selected-filter row justify-content-between" id="pills-tab" role="tablist">
+			<li class="nav-item col-lg-4">
 				<a class="nav-link active" id="reliability-tab" data-toggle="pill" href="#reliability" role="tab" aria-controls="reliability"
-				 aria-selected="true"><i class="far fa-calendar-alt"></i>Reliability</a>
+				 aria-selected="true">
+					<i class="far fa-calendar-alt"></i>Reliability</a>
 			</li>
-			<li class="nav-item">
+			<li class="nav-item col-lg-4">
 				<a class="nav-link" id="transparency-tab" data-toggle="pill" href="#transparency" role="tab" aria-controls="transparency"
-				 aria-selected="false"><i class="far fa-map"></i>Transparency</a>
+				 aria-selected="false">
+					<i class="far fa-map"></i>Transparency</a>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link" id="efficiency-tab" data-toggle="pill" href="#efficiency" role="tab" aria-controls="efficiency"
-				 aria-selected="false"><i class="far fa-chart-bar"></i>Efficiency</a>
+			<li class="nav-item col-lg-4">
+				<a class="nav-link" id="efficiency-tab" data-toggle="pill" href="#efficiency" role="tab" aria-controls="efficiency" aria-selected="false">
+					<i class="far fa-chart-bar"></i>Efficiency</a>
 			</li>
 		</ul>
+
+		<!-- Reliability Tab -->
+
 		<div class="tab-content" id="tabContent">
-			<div class="tab-pane fade show active row no-margin align-items-center" id="reliability" role="tabpanel" aria-labelledby="reliability-tab">
-			<!-- <div class="tab-details row no-margin align-items-center"> -->
-			<div class="col-4">	
-			<h3>Shipments should be on time</h3>
-				<h3>We make it happen</h3>
-				<p>Our mix of data driven technology and human logistics experts solves problems before they occur. Track you shipments and get a notification for you ETA. There is no easier way to structure based on reliable data.</p>
+			<div class="tab-pane fade show active row no-margin align-items-center " id="reliability" role="tabpanel" aria-labelledby="reliability-tab">
+				<div class="tab-wrapper col-lg-5 pl-0">
+					<div class="tab-title">
+						<h3>Shipments should be on time</h3>
+						<h3>We make it happen</h3>
+					</div>
+					<div class="tab-description">
+						<p>Our mix of data driven technology and human logistics experts solves problems before they occur. Track you shipments
+							and get a notification for you ETA. There is no easier way to structure based on reliable data.</p>
+					</div>
+					<div class="tab-cta">
+						<a href="#" class="learn-more">
+							<i class="fas fa-clipboard"></i>Learn more
+							<i class="fas fa-angle-right"></i>
+						</a>
+					</div>
+				</div>
 			</div>
-			<!-- </div> -->
+
+			<!-- Transparency Tab -->
+
+			<div class="tab-pane fade row no-margin align-items-center " id="transparency" role="tabpanel" aria-labelledby="transparency-tab">
+				<div class="tab-wrapper col-lg-5 pl-0">
+					<div class="tab-title">
+						<h3>You see what we see</h3>
+					</div>
+					<div class="tab-description">
+						<p>Never be out of the loop – you're not treated as a customer, you're treated like one of us. This makes aspects such as shipping times, cost and any bumps on the road fully visable ahead of time.</p>
+					</div>
+					<div class="tab-cta">
+						<a href="#" class="learn-more">
+							<i class="fas fa-clipboard"></i>Learn more
+							<i class="fas fa-angle-right"></i>
+						</a>
+					</div>
+				</div>
 			</div>
-			<!-- <div class="tab-pane fade" id="transparency" role="tabpanel" aria-labelledby="transparency-tab">
-				<h3>You see what we see</h3>
-				<p>Never be out of the loop – you're not treated as a customer, you're treated like one of us. This makes aspects such as shipping times, cost and any bumps on the road fully visable ahead of time.</p>
+
+			<!-- Efficiency Tab -->
+
+			<div class="tab-pane fade row no-margin align-items-center " id="efficiency" role="tabpanel" aria-labelledby="efficiency-tab">
+				<div class="tab-wrapper col-lg-5 pl-0">
+					<div class="tab-title">
+						<h3>Award winning delivery times</h3>
+					</div>
+					<div class="tab-description">
+						<p>Rated #1 by 'Consumer Reports 2018' for fastest shipping times when compared to the next top 3 competetors. Choose us and get your freight on time.</p>
+					</div>
+					<div class="tab-cta">
+						<a href="#" class="learn-more">
+							<i class="fas fa-clipboard"></i>Learn more
+							<i class="fas fa-angle-right"></i>
+						</a>
+					</div>
+				</div>
 			</div>
-			<div class="tab-pane fade" id="efficiency" role="tabpanel" aria-labelledby="efficiency-tab">
-				<h3>Award winning delivery times</h3>
-				<p>Rated #1 by 'Consumer Reports 2018' for fastest shipping times when compared to the next top 3 competetors. Choose us and get your freight on time.</p>
-			</div>
-		</div> -->
+
+		</div>
 	</section>
 
 

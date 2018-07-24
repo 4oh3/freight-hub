@@ -135,7 +135,7 @@ nav {
 .hero-section {
 	width: calc(100% - 70px);
 	height: 75vh;
-	min-height: 600px;
+	min-height: 750px;
 	margin: 2.15em auto;
 	background: url("/images/cargo-ship.jpg");
 	background-repeat: no-repeat;
@@ -210,7 +210,7 @@ nav {
 		width: 100%;
 
 		.hero-title {
-			margin-bottom: 1.5em;
+			margin-bottom: 2em;
 		}
 
 		.hero-title h2 {
@@ -219,11 +219,11 @@ nav {
 
 		.hero-description {
 			font-size: 1.15em;
-			margin-bottom: 1.5em;
+			margin-bottom: 2em;
 		}
 
 		.hero-cta {
-			margin-bottom: 3em;
+			margin-bottom: 3.5em;
 		}
 
 		.hero-cta .fa-clipboard {
@@ -232,7 +232,7 @@ nav {
 
 		.hero-cta a:nth-of-type(1) {
 			display: block;
-			margin-bottom: 1.5em;
+			margin-bottom: 2em;
 		}
 
 		.hero-cta a:nth-of-type(1) {
@@ -244,14 +244,13 @@ nav {
 // Benefits Section
 
 .benefits-section {
-	width: calc(100% - 70px);
-	// height: 15vh;
 	margin: 4.3em auto;
 
 	.benefits-title {
 		font-family: $secondary-font;
 		color: rgba(0, 0, 0, 0.35);
 		padding-left: 0;
+		margin-bottom: 2em;
 	}
 
 	.benefits-title h3 {
@@ -266,36 +265,39 @@ nav {
 	}
 
 	@media (min-width: 1199px) {
-			
 		height: 15vh;
-
 	}
 }
 
 // Features Section
 
 .features-section {
-	// margin: 0 auto;
-	border-top: 1px solid $light-grey;
-	// height: 75vh;
-
-	a {
-		font-family: $secondary-font;
-		font-weight: lighter;
-		font-size: 1.15em;
-		color: #D0D0D0;
-		border-bottom: solid 1px $light-grey;
-		padding: 1.5em 7em;
-	}
+	height: 75vh;
+	margin: 0 auto;
+	height: 75vh;
 
 	.far {
 		font-size: 1.5em;
 		padding-right: 1em;
 	}
 
-	.selected-filter {
-		// margin-bottom: 2.25em;
-		margin: 0 auto;
+	.tab-wrapper {
+		margin: 6em 0;
+		border-bottom: 1px solid $light-grey;
+	}
+
+	.selected-filter a {
+		font-family: $secondary-font;
+		font-weight: lighter;
+		font-size: 1.15em;
+		color: #d0d0d0;
+		border-top: 1px solid $light-grey;
+		border-bottom: solid 1px $light-grey;
+		padding: 1.5em 0;
+	}
+
+	.selected-filter a:hover {
+		color: black;
 	}
 
 	.selected-filter .nav-link.active,
@@ -305,19 +307,56 @@ nav {
 		border-bottom: 2px solid $light-blue;
 	}
 
-	.selected-filter .nav-link.active .far {
+	.selected-filter a:hover .far,
+	.selected-filter .nav-link.active .far  {
 		color: $light-blue;
 	}
 
-	.selected-filter a:hover {
+	.tab-title {
+		margin-bottom: 4.5em;
+	}
+
+	.tab-description {
+		margin-bottom: 4.5em;
+	}
+
+	.tab-cta {
+		margin-bottom: 4.5em;
+	}
+
+	.learn-more {
 		color: black;
 	}
 
-		.selected-filter a:hover .far {
-		color: $light-blue;
+	.learn-more:hover {
+		text-decoration: none;
 	}
 
-	.tab-pane {
-		height: 75vh;
+	.learn-more .fa-clipboard {
+		padding-right: 0.5em;
+	}
+
+	.learn-more .fa-angle-right {
+		padding-left: 0.5em;
+		color: black;
+	}
+
+	@media (min-width: 992px) {
+		.nav-item:nth-of-type(1) {
+			padding-right: 0;
+		}
+		.nav-item:nth-of-type(2) {
+			padding-right: 0;
+			padding-left: 0;
+		}
+		.nav-item:nth-of-type(3) {
+			padding-left: 0;
+		}
 	}
 }
+
+// Hero Testimonial Section
+
+
+
+// Testimonials Section
