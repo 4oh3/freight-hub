@@ -271,12 +271,12 @@
 			</div>
 		</div>
 		<div class="primary-testimonial row justify-content-center">
-			<div class="col-lg-2 testimonial-image">
+			<div class="testimonial-image col-lg-3">
 				<img src="/images/businessman-headshot.jpeg" alt="Businessman Headshot">
 			</div>
-			<div class="col-lg-4 testimonial-quote">
+			<div class="testimonial-quote col-lg-5">
 				<p>"Smooth handling of Asia and direct communication when needed made the process easier and eliminated unnecessary grinding"</p>
-				<div class="row">
+				<div class="row testimonial-info">
 					<p class="col-12">Max, Head of Logistics</p>
 					<p class="col-12">Home24</p>
 				</div>

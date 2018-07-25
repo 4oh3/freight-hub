@@ -10864,10 +10864,30 @@ nav .fa-angle-down {
   height: 50vh;
   min-height: 425px;
   margin: 3.5em auto;
+  font-family: "Lato", sans-serif;
+}
+
+.hero-testimonial-section h2 {
+  font-weight: lighter;
 }
 
 .hero-testimonial-section .primary-testimonial {
   margin: 4.5em auto;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+.hero-testimonial-section .testimonial-quote p {
+  margin-bottom: 0.1em;
+}
+
+.hero-testimonial-section .testimonial-info {
+  font-size: 0.75em;
+  color: #aaaaaa;
+}
+
+.hero-testimonial-section .testimonial-info p {
+  margin-bottom: 0;
 }
 
 .hero-testimonial-section .company-logos img {
@@ -10879,9 +10899,13 @@ nav .fa-angle-down {
   padding-left: 0;
 }
 
-@media (max-width: 1199px) {
-  .hero-testimonial-section .company-logos img {
-    display: block;
+@media (max-width: 992px) {
+  .hero-testimonial-section .testimonial-image {
+    padding-bottom: 0.5em;
+  }
+
+  .hero-testimonial-section .company-logos div {
+    padding: 0.5em 0;
   }
 }
 

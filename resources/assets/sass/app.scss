@@ -100,7 +100,7 @@ nav {
 	}
 
 	.freighthub-text {
-		font-family: $secondary-font;
+		font-family: $primary-font;
 		font-size: 1.75em;
 		font-weight: lighter;
 		text-transform: uppercase;
@@ -171,7 +171,7 @@ nav {
 	}
 
 	.hero-description {
-		font-family: $secondary-font;
+		font-family: $primary-font;
 		font-weight: lighter;
 		font-size: 1.25em;
 		line-height: 0.85em;
@@ -179,7 +179,7 @@ nav {
 	}
 
 	.hero-cta {
-		font-family: $secondary-font;
+		font-family: $primary-font;
 		font-weight: lighter;
 		margin-bottom: 8.5em;
 	}
@@ -264,7 +264,7 @@ nav {
 	min-height: 133px;
 
 	.benefits-title {
-		font-family: $secondary-font;
+		font-family: $primary-font;
 		color: rgba(0, 0, 0, 0.35);
 		padding-left: 0;
 		margin-bottom: 2em;
@@ -275,7 +275,7 @@ nav {
 	}
 
 	.benefits-description {
-		font-family: $secondary-font;
+		font-family: $primary-font;
 		font-weight: lighter;
 		padding-left: 0;
 		font-size: 1.3em;
@@ -289,7 +289,6 @@ nav {
 // Features Section
 
 .features-section {
-
 	.far {
 		font-size: 1.5em;
 		padding-right: 1em;
@@ -309,7 +308,7 @@ nav {
 	}
 
 	.selected-filter a {
-		font-family: $secondary-font;
+		font-family: $primary-font;
 		font-weight: lighter;
 		font-size: 1.15em;
 		color: $medium-grey;
@@ -339,13 +338,13 @@ nav {
 	}
 
 	.tab-title h3 {
-		font-family: $secondary-font;
+		font-family: $primary-font;
 		font-size: 2em;
 		font-weight: lighter;
 	}
 
 	.tab-description {
-		font-family: $secondary-font;
+		font-family: $primary-font;
 		font-size: 1.15em;
 		font-weight: lighter;
 		color: $medium-grey;
@@ -411,15 +410,29 @@ nav {
 	height: 50vh;
 	min-height: 425px;
 	margin: 3.5em auto;
+	font-family: $primary-font;
+
+	h2 {
+		font-weight: lighter;
+	}
 
 	.primary-testimonial {
 		margin: 4.5em auto;
+		font-size: 1.5em;
+		font-weight: lighter;
 	}
 
-	.testimonial-image {
+	.testimonial-quote p {
+		margin-bottom: 0.1em;
 	}
 
-	.testimonial-quote {
+	.testimonial-info {
+		font-size: 0.75em;
+		color: $medium-grey;
+	}
+
+	.testimonial-info p {
+		margin-bottom: 0;
 	}
 
 	.company-logos img {
@@ -431,9 +444,13 @@ nav {
 		padding-left: 0;
 	}
 
-	@media (max-width: 1199px) {
-		.company-logos img {
-			display: block;
+	@media (max-width: 992px) {
+		.testimonial-image {
+			padding-bottom: 0.5em;
+		}
+
+		.company-logos div {
+			padding: 0.5em 0;
 		}
 	}
 }
