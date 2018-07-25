@@ -70,8 +70,8 @@
 	<div class="secondary-nav row no-margin">
 		<div class="col-xl-4">
 			<ul class="list-group">
-				<li class="list-group-item">
-					<a href="/">FreightHub</a>
+				<li class="list-group-item freighthub-text-container">
+					<a href="/" class="freighthub-text"><span class="freight-text">Freight</span>Hub</a>
 				</li>
 			</ul>
 			<div class="mobile-divider"></div>
@@ -79,7 +79,7 @@
 		<div class="col-xl-2">
 			<ul class="list-group">
 				<li class="list-group-item">
-					<a href="#">Freight Hub</a>
+					<a href="#" class="menu-bold">Freight Hub</a>
 				</li class="list-group-item">
 				<li class="list-group-item">
 					<a href="#">Features</a>
@@ -96,7 +96,7 @@
 		<div class="col-xl-2">
 			<ul class="list-group">
 				<li class="list-group-item">
-					<a href="#">About Us</a>
+					<a href="#" class="menu-bold">About Us</a>
 				</li>
 				<li class="list-group-item">
 					<a href="#">Company</a>
@@ -110,7 +110,7 @@
 		<div class="col-xl-2">
 			<ul class="list-group">
 				<li class="list-group-item">
-					<a href="#">
+					<a href="#" class="menu-bold">
 						<i class="fas fa-user-circle"></i>Sign In
 						<i class="fas fa-angle-right"></i>
 					</a>
@@ -183,6 +183,7 @@
 		<!-- Left Side -->
 		<div class="tab-content" id="tabContent">
 			<div class="tab-pane fade show active row no-margin justify-content-between" id="reliability" role="tabpanel" aria-labelledby="reliability-tab">
+				
 				<div class="tab-pane-container col-lg-4">
 					<div class="tab-title">
 						<h3>Shipments should be on time</h3>
@@ -225,6 +226,13 @@
 						</a>
 					</div>
 				</div>
+
+				<!-- Right Side -->
+				<div class="tab-image-container col-lg-7">
+					<div class="tab-image">
+						<img src="/images/ipad-mockup.png" alt="">
+					</div>
+				</div>
 			</div>
 
 			<!-- Efficiency Tab -->
@@ -244,9 +252,43 @@
 						</a>
 					</div>
 				</div>
+
+				<!-- Right Side -->
+				<div class="tab-image-container col-lg-7">
+					<div class="tab-image">
+						<img src="/images/ipad-mockup.png" alt="">
+					</div>
+				</div>
 			</div>
 
 		</div>
+	</section>
+
+	<section class="hero-testimonial-section container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>You're in good company – Meet some of our partners and 800+ customers!</h2>
+			</div>
+		</div>
+		<div class="primary-testimonial row justify-content-center">
+			<div class="col-lg-2 testimonial-image">
+				<img src="/images/businessman-headshot.jpeg" alt="Businessman Headshot">
+			</div>
+			<div class="col-lg-4 testimonial-quote">
+				<p>"Smooth handling of Asia and direct communication when needed made the process easier and eliminated unnecessary grinding"</p>
+				<div class="row">
+					<p class="col-12">Max, Head of Logistics</p>
+					<p class="col-12">Home24</p>
+				</div>
+			</div>
+		</div>
+				<div class="company-logos row justify-content-center">
+					<div class="col-lg-2"><img src="/images/nea-logo1.png" alt="NEA Company Logo"></div>
+					<div class="col-lg-2"><img src="/images/hq-logo1.png" alt="HQ Company Logo"></div>
+					<!-- <i class="fab fa-slack-hash"></i> -->
+					<div class="col-lg-2"><img src="/images/viessmann-logo1.png" alt="Viessmann Company Logo"></div>
+					<div class="col-lg-2"><img src="/images/blocpower-logo1.png" alt="Bloc Power Company Logo"></div>
+				</div>
 	</section>
 
 
