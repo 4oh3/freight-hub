@@ -54,11 +54,11 @@ nav {
 	a {
 		font-weight: lighter;
 		color: #6c757d;
-	}
 
-	a:hover {
-		color: black;
-		text-decoration: none;
+		&:hover {
+			color: black;
+			text-decoration: none;
+		}
 	}
 
 	.fa-phone-square {
@@ -88,11 +88,11 @@ nav {
 
 	a {
 		color: black;
-	}
 
-	a:hover {
-		text-decoration: none;
-		// Add something for UX
+		&:hover {
+			text-decoration: none;
+			// Add something for UX
+		}
 	}
 
 	.freighthub-text-container {
@@ -128,10 +128,10 @@ nav {
 		color: white;
 		padding: 1.5em 2em;
 		font-weight: lighter;
-	}
 
-	.signup-button:hover {
-		background-color: $darker-light-blue;
+		&:hover {
+			background-color: $darker-light-blue;
+		}
 	}
 
 	@media (max-width: 1199px) {
@@ -161,13 +161,13 @@ nav {
 	background-blend-mode: multiply;
 	color: white;
 
-	.hero-title h2 {
-		font-weight: lighter;
-		font-size: 4em;
-	}
-
 	.hero-title {
 		margin-bottom: 3em;
+
+		h2 {
+			font-weight: lighter;
+			font-size: 4em;
+		}
 	}
 
 	.hero-description {
@@ -182,33 +182,33 @@ nav {
 		font-family: $primary-font;
 		font-weight: lighter;
 		margin-bottom: 8.5em;
-	}
 
-	.hero-cta .fa-clipboard {
-		padding-right: 0.5em;
-		padding-left: 1.5em;
-	}
+		.fa-clipboard {
+			padding-right: 0.5em;
+			padding-left: 1.5em;
+		}
 
-	.hero-cta .fa-angle-right {
-		padding-left: 0.5em;
-		color: white;
-	}
+		.fa-angle-right {
+			padding-left: 0.5em;
+			color: white;
+		}
 
-	.hero-cta a:nth-of-type(1) {
-		background-color: $light-blue;
-		padding: 1.25em 2em;
-	}
+		a {
+			color: white;
 
-	.hero-cta a {
-		color: white;
-	}
+			&:hover {
+				text-decoration: none;
+			}
+		}
 
-	.hero-cta a:hover {
-		text-decoration: none;
-	}
+		a:nth-of-type(1) {
+			background-color: $light-blue;
+			padding: 1.25em 2em;
 
-	.hero-cta a:nth-of-type(1):hover {
-		background-color: $darker-light-blue;
+			&:hover {
+				background-color: $darker-light-blue;
+			}
+		}
 	}
 
 	.hero-image-description {
@@ -216,10 +216,10 @@ nav {
 		color: rgba(255, 255, 255, 0.35);
 		border-bottom: 2px solid rgba(255, 255, 255, 0.35);
 		font-size: 0.75em;
-	}
 
-	.hero-image-description p {
-		height: 3.5em;
+		p {
+			height: 3.5em;
+		}
 	}
 
 	@media (max-width: 1199px) {
@@ -227,10 +227,10 @@ nav {
 
 		.hero-title {
 			margin-bottom: 2em;
-		}
 
-		.hero-title h2 {
-			font-size: 3em;
+			h2 {
+				font-size: 3em;
+			}
 		}
 
 		.hero-description {
@@ -240,19 +240,16 @@ nav {
 
 		.hero-cta {
 			margin-bottom: 3.5em;
-		}
 
-		.hero-cta .fa-clipboard {
-			padding-left: 0;
-		}
+			.fa-clipboard {
+				padding-left: 0;
+			}
 
-		.hero-cta a:nth-of-type(1) {
-			display: block;
-			margin-bottom: 2em;
-		}
-
-		.hero-cta a:nth-of-type(1) {
-			padding: 1.25em 1.25em;
+			a:nth-of-type(1) {
+				display: block;
+				margin-bottom: 2em;
+				padding: 1.25em 1.25em;
+			}
 		}
 	}
 }
@@ -268,10 +265,10 @@ nav {
 		color: rgba(0, 0, 0, 0.35);
 		padding-left: 0;
 		margin-bottom: 2em;
-	}
 
-	.benefits-title h3 {
-		font-size: 1em;
+		h3 {
+			font-size: 1em;
+		}
 	}
 
 	.benefits-description {
@@ -315,10 +312,10 @@ nav {
 		border-top: 1px solid $light-grey;
 		border-bottom: solid 1px $light-grey;
 		padding: 1.5em 0;
-	}
 
-	.selected-filter a:hover {
-		color: black;
+		&:hover {
+			color: black;
+		}
 	}
 
 	.selected-filter .nav-link.active,
@@ -335,12 +332,12 @@ nav {
 
 	.tab-title {
 		margin-bottom: 2.5em;
-	}
 
-	.tab-title h3 {
-		font-family: $primary-font;
-		font-size: 2em;
-		font-weight: lighter;
+		h3 {
+			font-family: $primary-font;
+			font-size: 2em;
+			font-weight: lighter;
+		}
 	}
 
 	.tab-description {
@@ -353,29 +350,29 @@ nav {
 
 	.learn-more {
 		color: black;
-	}
 
-	.learn-more:hover {
-		text-decoration: none;
-	}
+		&:hover {
+			text-decoration: none;
+		}
 
-	.learn-more .fa-clipboard {
-		padding-right: 0.5em;
-	}
+		.fa-clipboard {
+			padding-right: 0.5em;
+		}
 
-	.learn-more .fa-angle-right {
-		padding-left: 0.5em;
-		color: black;
+		.fa-angle-right {
+			padding-left: 0.5em;
+			color: black;
+		}
 	}
 
 	.tab-image {
 		overflow: hidden;
-	}
 
-	.tab-image img {
-		padding: 3em 0 0 1.5em;
-		width: 125%;
-		height: 125%;
+		img {
+			padding: 3em 0 0 1.5em;
+			width: 125%;
+			height: 125%;
+		}
 	}
 
 	@media (min-width: 992px) {
@@ -429,19 +426,23 @@ nav {
 	.testimonial-info {
 		font-size: 0.75em;
 		color: $medium-grey;
+
+		p {
+			margin-bottom: 0;
+		}
 	}
 
-	.testimonial-info p {
-		margin-bottom: 0;
-	}
+	.company-logos {
+		margin: 0 auto;
 
-	.company-logos img {
-		height: 20px;
-		padding-left: 5em;
-	}
+		img {
+			height: 20px;
+			padding-left: 5em;
+		}
 
-	.company-logos img:nth-of-type(1) {
-		padding-left: 0;
+		img:nth-of-type(1) {
+			padding-left: 0;
+		}
 	}
 
 	@media (max-width: 992px) {

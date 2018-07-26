@@ -277,18 +277,17 @@
 			<div class="testimonial-quote col-lg-5">
 				<p>"Smooth handling of Asia and direct communication when needed made the process easier and eliminated unnecessary grinding"</p>
 				<div class="row testimonial-info">
-					<p class="col-12">Max, Head of Logistics</p>
+					<p class="col-12"><i class="fab fa-slack-hash"></i>Max, Head of Logistics</p>
 					<p class="col-12">Home24</p>
 				</div>
 			</div>
 		</div>
-				<div class="company-logos row justify-content-center">
-					<div class="col-lg-2"><img src="/images/nea-logo1.png" alt="NEA Company Logo"></div>
-					<div class="col-lg-2"><img src="/images/hq-logo1.png" alt="HQ Company Logo"></div>
-					<!-- <i class="fab fa-slack-hash"></i> -->
-					<div class="col-lg-2"><img src="/images/viessmann-logo1.png" alt="Viessmann Company Logo"></div>
-					<div class="col-lg-2"><img src="/images/blocpower-logo1.png" alt="Bloc Power Company Logo"></div>
-				</div>
+		<div class="company-logos row justify-content-center">
+			<div class="col-lg-2"><img src="/images/nea-logo1.png" alt="NEA Company Logo"></div>
+			<div class="col-lg-2"><img src="/images/hq-logo1.png" alt="HQ Company Logo"></div>
+			<div class="col-lg-2"><img src="/images/viessmann-logo1.png" alt="Viessmann Company Logo"></div>
+			<div class="col-lg-2"><img src="/images/blocpower-logo1.png" alt="Bloc Power Company Logo"></div>
+		</div>
 	</section>
 
 

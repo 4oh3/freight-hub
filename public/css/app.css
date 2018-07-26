@@ -10616,13 +10616,13 @@ nav .fa-angle-down {
   color: white;
 }
 
+.hero-section .hero-title {
+  margin-bottom: 3em;
+}
+
 .hero-section .hero-title h2 {
   font-weight: lighter;
   font-size: 4em;
-}
-
-.hero-section .hero-title {
-  margin-bottom: 3em;
 }
 
 .hero-section .hero-description {
@@ -10649,17 +10649,17 @@ nav .fa-angle-down {
   color: white;
 }
 
-.hero-section .hero-cta a:nth-of-type(1) {
-  background-color: #22a5eb;
-  padding: 1.25em 2em;
-}
-
 .hero-section .hero-cta a {
   color: white;
 }
 
 .hero-section .hero-cta a:hover {
   text-decoration: none;
+}
+
+.hero-section .hero-cta a:nth-of-type(1) {
+  background-color: #22a5eb;
+  padding: 1.25em 2em;
 }
 
 .hero-section .hero-cta a:nth-of-type(1):hover {
@@ -10706,9 +10706,6 @@ nav .fa-angle-down {
   .hero-section .hero-cta a:nth-of-type(1) {
     display: block;
     margin-bottom: 2em;
-  }
-
-  .hero-section .hero-cta a:nth-of-type(1) {
     padding: 1.25em 1.25em;
   }
 }
@@ -10888,6 +10885,10 @@ nav .fa-angle-down {
 
 .hero-testimonial-section .testimonial-info p {
   margin-bottom: 0;
+}
+
+.hero-testimonial-section .company-logos {
+  margin: 0 auto;
 }
 
 .hero-testimonial-section .company-logos img {
