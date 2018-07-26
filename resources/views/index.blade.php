@@ -71,7 +71,8 @@
 		<div class="col-xl-4">
 			<ul class="list-group">
 				<li class="list-group-item freighthub-text-container">
-					<a href="/" class="freighthub-text"><span class="freight-text">Freight</span>Hub</a>
+					<a href="/" class="freighthub-text">
+						<span class="freight-text">Freight</span>Hub</a>
 				</li>
 			</ul>
 			<div class="mobile-divider"></div>
@@ -183,7 +184,7 @@
 		<!-- Left Side -->
 		<div class="tab-content" id="tabContent">
 			<div class="tab-pane fade show active row no-margin justify-content-between" id="reliability" role="tabpanel" aria-labelledby="reliability-tab">
-				
+
 				<div class="tab-pane-container col-lg-4">
 					<div class="tab-title">
 						<h3>Shipments should be on time</h3>
@@ -217,7 +218,8 @@
 						<h3>You see what we see</h3>
 					</div>
 					<div class="tab-description">
-						<p>Never be out of the loop – you're not treated as a customer, you're treated like one of us. This makes aspects such as shipping times, cost and any bumps on the road fully visable ahead of time.</p>
+						<p>Never be out of the loop – you're not treated as a customer, you're treated like one of us. This makes aspects such
+							as shipping times, cost and any bumps on the road fully visable ahead of time.</p>
 					</div>
 					<div class="tab-cta">
 						<a href="#" class="learn-more">
@@ -243,7 +245,8 @@
 						<h3>Award winning delivery times</h3>
 					</div>
 					<div class="tab-description">
-						<p>Rated #1 by 'Consumer Reports 2018' for fastest shipping times when compared to the next top 3 competetors. Choose us and get your freight on time.</p>
+						<p>Rated #1 by 'Consumer Reports 2018' for fastest shipping times when compared to the next top 3 competetors. Choose
+							us and get your freight on time.</p>
 					</div>
 					<div class="tab-cta">
 						<a href="#" class="learn-more">
@@ -276,17 +279,74 @@
 			</div>
 			<div class="testimonial-quote col-lg-5">
 				<p>"Smooth handling of Asia and direct communication when needed made the process easier and eliminated unnecessary grinding"</p>
-				<div class="row testimonial-info">
-					<p class="col-12"><i class="fab fa-slack-hash"></i>Max, Head of Logistics</p>
-					<p class="col-12">Home24</p>
+				<div class="testimonial-logo row align-items-center">
+					<div class="col-2">
+						<i class="fab fa-slack-hash"></i>
+					</div>
+					<div class="row testimonial-info">
+						<p class="col-lg-12">Max, Head of Logistics</p>
+						<p class="col-lg-12">Home24</p>
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="company-logos row justify-content-center">
-			<div class="col-lg-2"><img src="/images/nea-logo1.png" alt="NEA Company Logo"></div>
-			<div class="col-lg-2"><img src="/images/hq-logo1.png" alt="HQ Company Logo"></div>
-			<div class="col-lg-2"><img src="/images/viessmann-logo1.png" alt="Viessmann Company Logo"></div>
-			<div class="col-lg-2"><img src="/images/blocpower-logo1.png" alt="Bloc Power Company Logo"></div>
+			<div class="col-lg-2">
+				<img src="/images/nea-logo.png" alt="NEA Company Logo">
+			</div>
+			<div class="col-lg-2">
+				<img src="/images/hq-logo.png" alt="HQ Company Logo">
+			</div>
+			<div class="col-lg-2">
+				<img src="/images/viessmann-logo.png" alt="Viessmann Company Logo">
+			</div>
+			<div class="col-lg-2">
+				<img src="/images/blocpower-logo.png" alt="Bloc Power Company Logo">
+			</div>
+		</div>
+	</section>
+
+	<section class="testimonials-section container">
+		<!-- justify-content-between -->
+		<div class="row">
+			<!-- Card 1 -->
+			<div class="testimonial-card col-lg-6">
+				<div class="testimonial-card-content">
+					<p class="testimonial-quote">FreightHub has the potential to disrupt liner shipping just like Airbnb – asset-light and with pure focus on customer
+						satisfaction.</p>
+					<div class="row align-items-center">
+						<div class="col-lg-2">
+							<img src="/images/testimonial-1.jpeg" alt="Testimonial 1 Headshot">
+						</div>
+						<div class="testimonial-logo col-lg-1">
+							<i class="fas fa-spa"></i>
+						</div>
+						<div class="row testimonial-info col-lg-6">
+							<p class="col-lg-12">Brian H, Opteo Company</p>
+							<p class="col-lg-12">Hamburg Sud</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Card 2 -->
+			<div class="testimonial-card col-lg-6">
+				<div class="testimonial-card-content">
+					<p class="testimonial-quote">My customers depend on reliable and fast delivery of our goods. FreightHub's smooth service and support team gives me the confidence to meet these requirements.</p>
+					<div class="row align-items-center">
+						<div class="col-lg-2">
+							<img src="/images/testimonial-2.jpeg" alt="Testimonial 2 Headshot">
+						</div>
+						<div class="testimonial-logo col-lg-1">
+							<i class="fas fa-leaf"></i>
+						</div>
+						<div class="row testimonial-info col-lg-6">
+							<p class="col-lg-12">Prof. Dr. Burkert Schwenkert</p>
+							<p class="col-lg-12">Chairman of Advisory Board</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</div>
 	</section>
 

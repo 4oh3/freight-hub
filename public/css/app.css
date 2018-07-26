@@ -10874,16 +10874,24 @@ nav .fa-angle-down {
   font-weight: lighter;
 }
 
+.hero-testimonial-section .testimonial-quote .testimonial-logo {
+  color: #aaaaaa;
+}
+
+.hero-testimonial-section .testimonial-quote .testimonial-logo .fab {
+  font-size: 1.75em;
+}
+
 .hero-testimonial-section .testimonial-quote p {
   margin-bottom: 0.1em;
 }
 
-.hero-testimonial-section .testimonial-info {
+.hero-testimonial-section .testimonial-quote .testimonial-info {
   font-size: 0.75em;
   color: #aaaaaa;
 }
 
-.hero-testimonial-section .testimonial-info p {
+.hero-testimonial-section .testimonial-quote .testimonial-info p {
   margin-bottom: 0;
 }
 
@@ -10908,5 +10916,40 @@ nav .fa-angle-down {
   .hero-testimonial-section .company-logos div {
     padding: 0.5em 0;
   }
+}
+
+.testimonials-section {
+  height: 25vh;
+}
+
+.testimonials-section .testimonial-card {
+  border: 1px solid #eee;
+}
+
+.testimonials-section .testimonial-card .testimonial-card-content {
+  padding: 2.5em;
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+}
+
+.testimonials-section .testimonial-card .testimonial-card-content .testimonial-quote {
+  padding-bottom: 2em;
+  font-size: 1.05em;
+}
+
+.testimonials-section .testimonial-card .testimonial-card-content .testimonial-logo .fas,
+.testimonials-section .testimonial-card .testimonial-card-content .testimonial-logo .fab {
+  color: #aaaaaa;
+  font-size: 2em;
+}
+
+.testimonials-section .testimonial-card .testimonial-card-content .testimonial-info {
+  font-size: 0.9em;
+  color: #aaaaaa;
+  padding-left: 1.5em;
+}
+
+.testimonials-section .testimonial-card .testimonial-card-content .testimonial-info p {
+  margin-bottom: 0;
 }
 

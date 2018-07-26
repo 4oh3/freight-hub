@@ -419,16 +419,25 @@ nav {
 		font-weight: lighter;
 	}
 
-	.testimonial-quote p {
-		margin-bottom: 0.1em;
-	}
+	.testimonial-quote {
+		.testimonial-logo {
+			color: $medium-grey;
 
-	.testimonial-info {
-		font-size: 0.75em;
-		color: $medium-grey;
+			.fab {
+				font-size: 1.75em;
+			}
+		}
 
 		p {
-			margin-bottom: 0;
+			margin-bottom: 0.1em;
+		}
+		.testimonial-info {
+			font-size: 0.75em;
+			color: $medium-grey;
+
+			p {
+				margin-bottom: 0;
+			}
 		}
 	}
 
@@ -457,3 +466,40 @@ nav {
 }
 
 // Testimonials Section
+
+.testimonials-section {
+	height: 25vh;
+
+	.testimonial-card {
+		border: 1px solid $light-grey;
+
+		.testimonial-card-content {
+			padding: 2.5em;
+			font-family: $primary-font;
+			font-weight: lighter;
+
+			.testimonial-quote {
+				padding-bottom: 2em;
+				font-size: 1.05em;
+			}
+
+			.testimonial-logo {
+				.fas,
+				.fab {
+					color: $medium-grey;
+					font-size: 2em;
+				}
+			}
+
+			.testimonial-info {
+				font-size: 0.9em;
+				color: $medium-grey;
+				padding-left: 1.5em;
+
+				p {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
