@@ -441,6 +441,22 @@ nav {
 		}
 	}
 
+	@media (max-width: 992px) {
+		.testimonial-image {
+			padding-bottom: 0.5em;
+		}
+
+		.company-logos div {
+			padding: 0.5em 0;
+		}
+	}
+}
+
+// Customers Logos Section
+
+.customers-logos-section {
+	height: 15vh;
+	
 	.company-logos {
 		margin: 0 auto;
 
@@ -454,10 +470,7 @@ nav {
 		}
 	}
 
-	@media (max-width: 992px) {
-		.testimonial-image {
-			padding-bottom: 0.5em;
-		}
+		@media (max-width: 992px) {
 
 		.company-logos div {
 			padding: 0.5em 0;
@@ -494,7 +507,7 @@ nav {
 			.testimonial-info {
 				font-size: 0.9em;
 				color: $medium-grey;
-				padding-left: 1.5em;
+				padding-left: 2.25em;
 
 				p {
 					margin-bottom: 0;

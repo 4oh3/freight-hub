@@ -290,6 +290,9 @@
 				</div>
 			</div>
 		</div>
+	</section>
+
+	<section class="customers-logos-section container">
 		<div class="company-logos row justify-content-center">
 			<div class="col-lg-2">
 				<img src="/images/nea-logo.png" alt="NEA Company Logo">
@@ -307,21 +310,20 @@
 	</section>
 
 	<section class="testimonials-section container">
-		<!-- justify-content-between -->
-		<div class="row">
+		<div class="row justify-content-around">
 			<!-- Card 1 -->
-			<div class="testimonial-card col-lg-6">
+			<div class="testimonial-card col-lg-5">
 				<div class="testimonial-card-content">
 					<p class="testimonial-quote">FreightHub has the potential to disrupt liner shipping just like Airbnb – asset-light and with pure focus on customer
 						satisfaction.</p>
 					<div class="row align-items-center">
-						<div class="col-lg-2">
+						<div class="col-lg-3">
 							<img src="/images/testimonial-1.jpeg" alt="Testimonial 1 Headshot">
 						</div>
 						<div class="testimonial-logo col-lg-1">
 							<i class="fas fa-spa"></i>
 						</div>
-						<div class="row testimonial-info col-lg-6">
+						<div class="row testimonial-info col-lg-8">
 							<p class="col-lg-12">Brian H, Opteo Company</p>
 							<p class="col-lg-12">Hamburg Sud</p>
 						</div>
@@ -329,17 +331,17 @@
 				</div>
 			</div>
 			<!-- Card 2 -->
-			<div class="testimonial-card col-lg-6">
+			<div class="testimonial-card col-lg-5">
 				<div class="testimonial-card-content">
 					<p class="testimonial-quote">My customers depend on reliable and fast delivery of our goods. FreightHub's smooth service and support team gives me the confidence to meet these requirements.</p>
 					<div class="row align-items-center">
-						<div class="col-lg-2">
+						<div class="col-lg-3">
 							<img src="/images/testimonial-2.jpeg" alt="Testimonial 2 Headshot">
 						</div>
 						<div class="testimonial-logo col-lg-1">
 							<i class="fas fa-leaf"></i>
 						</div>
-						<div class="row testimonial-info col-lg-6">
+						<div class="row testimonial-info col-lg-8">
 							<p class="col-lg-12">Prof. Dr. Burkert Schwenkert</p>
 							<p class="col-lg-12">Chairman of Advisory Board</p>
 						</div>

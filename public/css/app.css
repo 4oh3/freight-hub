@@ -10895,25 +10895,35 @@ nav .fa-angle-down {
   margin-bottom: 0;
 }
 
-.hero-testimonial-section .company-logos {
-  margin: 0 auto;
-}
-
-.hero-testimonial-section .company-logos img {
-  height: 20px;
-  padding-left: 5em;
-}
-
-.hero-testimonial-section .company-logos img:nth-of-type(1) {
-  padding-left: 0;
-}
-
 @media (max-width: 992px) {
   .hero-testimonial-section .testimonial-image {
     padding-bottom: 0.5em;
   }
 
   .hero-testimonial-section .company-logos div {
+    padding: 0.5em 0;
+  }
+}
+
+.customers-logos-section {
+  height: 15vh;
+}
+
+.customers-logos-section .company-logos {
+  margin: 0 auto;
+}
+
+.customers-logos-section .company-logos img {
+  height: 20px;
+  padding-left: 5em;
+}
+
+.customers-logos-section .company-logos img:nth-of-type(1) {
+  padding-left: 0;
+}
+
+@media (max-width: 992px) {
+  .customers-logos-section .company-logos div {
     padding: 0.5em 0;
   }
 }
@@ -10946,7 +10956,7 @@ nav .fa-angle-down {
 .testimonials-section .testimonial-card .testimonial-card-content .testimonial-info {
   font-size: 0.9em;
   color: #aaaaaa;
-  padding-left: 1.5em;
+  padding-left: 2.25em;
 }
 
 .testimonials-section .testimonial-card .testimonial-card-content .testimonial-info p {
