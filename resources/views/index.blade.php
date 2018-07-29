@@ -279,11 +279,11 @@
 			</div>
 			<div class="testimonial-quote col-lg-5">
 				<p>"Smooth handling of Asia and direct communication when needed made the process easier and eliminated unnecessary grinding"</p>
-				<div class="testimonial-logo row align-items-center">
-					<div class="col-2">
+				<div class="row align-items-center">
+					<div class="testimonial-logo col-2">
 						<i class="fab fa-slack-hash"></i>
 					</div>
-					<div class="row testimonial-info">
+					<div class="testimonial-info row col-10">
 						<p class="col-lg-12">Max, Head of Logistics</p>
 						<p class="col-lg-12">Home24</p>
 					</div>
@@ -315,15 +315,16 @@
 			<div class="testimonial-card col-lg-5">
 				<div class="testimonial-card-content">
 					<p class="testimonial-quote">FreightHub has the potential to disrupt liner shipping just like Airbnb – asset-light and with pure focus on customer
-						satisfaction.</p>
+						satisfaction.
+					</p>
 					<div class="row align-items-center">
-						<div class="col-lg-3">
+						<div class="testimonial-image col">
 							<img src="/images/testimonial-1.jpeg" alt="Testimonial 1 Headshot">
 						</div>
-						<div class="testimonial-logo col-lg-1">
+						<div class="testimonial-logo col-1">
 							<i class="fas fa-spa"></i>
 						</div>
-						<div class="row testimonial-info col-lg-8">
+						<div class="row testimonial-info col-8">
 							<p class="col-lg-12">Brian H, Opteo Company</p>
 							<p class="col-lg-12">Hamburg Sud</p>
 						</div>
@@ -333,22 +334,26 @@
 			<!-- Card 2 -->
 			<div class="testimonial-card col-lg-5">
 				<div class="testimonial-card-content">
-					<p class="testimonial-quote">My customers depend on reliable and fast delivery of our goods. FreightHub's smooth service and support team gives me the confidence to meet these requirements.</p>
+					<p class="testimonial-quote">My customers depend on reliable and fast delivery of our goods. FreightHub's smooth service and support team gives me
+						the confidence to meet these requirements.</p>
 					<div class="row align-items-center">
-						<div class="col-lg-3">
+						<div class="testimonial-image col">
 							<img src="/images/testimonial-2.jpeg" alt="Testimonial 2 Headshot">
 						</div>
-						<div class="testimonial-logo col-lg-1">
+						<div class="testimonial-logo col-1">
 							<i class="fas fa-leaf"></i>
 						</div>
-						<div class="row testimonial-info col-lg-8">
+						<div class="row testimonial-info col-8">
 							<p class="col-lg-12">Prof. Dr. Burkert Schwenkert</p>
 							<p class="col-lg-12">Chairman of Advisory Board</p>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
 
+		<div class="testimonial-cta row justify-content-center">
+			<a href="#">Check other stories</a>
 		</div>
 	</section>
 

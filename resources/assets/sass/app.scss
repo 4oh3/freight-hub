@@ -404,8 +404,7 @@ nav {
 // Hero Testimonial Section
 
 .hero-testimonial-section {
-	height: 50vh;
-	min-height: 425px;
+	// min-height: 425px;
 	margin: 3.5em auto;
 	font-family: $primary-font;
 
@@ -423,8 +422,10 @@ nav {
 		.testimonial-logo {
 			color: $medium-grey;
 
-			.fab {
+			.fab,
+			.fas {
 				font-size: 1.75em;
+				// padding-right: 0.5em;
 			}
 		}
 
@@ -443,11 +444,8 @@ nav {
 
 	@media (max-width: 992px) {
 		.testimonial-image {
+			text-align: center;
 			padding-bottom: 0.5em;
-		}
-
-		.company-logos div {
-			padding: 0.5em 0;
 		}
 	}
 }
@@ -455,10 +453,8 @@ nav {
 // Customers Logos Section
 
 .customers-logos-section {
-	height: 15vh;
-	
 	.company-logos {
-		margin: 0 auto;
+		margin: 3.5em auto;
 
 		img {
 			height: 20px;
@@ -470,10 +466,12 @@ nav {
 		}
 	}
 
-		@media (max-width: 992px) {
-
-		.company-logos div {
-			padding: 0.5em 0;
+	@media (max-width: 992px) {
+		.company-logos {
+			div {
+				padding: 0.5em 0;
+				text-align: center;
+			}
 		}
 	}
 }
@@ -481,7 +479,6 @@ nav {
 // Testimonials Section
 
 .testimonials-section {
-	height: 25vh;
 
 	.testimonial-card {
 		border: 1px solid $light-grey;
@@ -494,6 +491,10 @@ nav {
 			.testimonial-quote {
 				padding-bottom: 2em;
 				font-size: 1.05em;
+			}
+
+			.testimonial-image {
+				padding-right: 0;
 			}
 
 			.testimonial-logo {
@@ -511,6 +512,41 @@ nav {
 
 				p {
 					margin-bottom: 0;
+					// padding-left: 0;
+				}
+			}
+		}
+	}
+
+	.testimonial-cta {
+		margin: 4.5em;
+		white-space: nowrap;
+		a {
+			font-family: $primary-font;
+			font-weight: lighter;
+			font-size: 0.9em;
+			color: white;
+			background-color: $light-blue;
+			padding: 1em 4em;
+
+			&:hover {
+				text-decoration: none;
+				background-color: $darker-light-blue;
+			}
+		}
+	}
+
+	@media (max-width: 992px) {
+		.testimonial-card {
+			&:nth-of-type(1) {
+				margin-bottom: 3.5em;
+			}
+		}
+
+		.testimonial-card {
+			.testimonial-card-content {
+				.testimonial-quote {
+					padding-bottom: 1em;
 				}
 			}
 		}
