@@ -552,3 +552,17 @@ nav {
 		}
 	}
 }
+
+.demo-newsletter-section {
+	font-family: $primary-font;
+	font-weight: lighter;
+	text-align: center;
+	background-color: #d9e3ea;
+	border: 1px solid $light-grey;
+	padding: 3.5em;
+
+	h2 {
+		font-weight: lighter;
+	}
+
+}

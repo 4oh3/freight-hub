@@ -268,7 +268,7 @@
 	</section>
 
 	<section class="hero-testimonial-section container">
-		<div class="row">
+		<div class="row no-margin">
 			<div class="col-lg-12">
 				<h2>You're in good company – Meet some of our partners and 800+ customers!</h2>
 			</div>
@@ -354,6 +354,41 @@
 
 		<div class="testimonial-cta row justify-content-center">
 			<a href="#">Check other stories</a>
+		</div>
+	</section>
+
+	<section class="demo-newsletter-section align-items-center row">
+		<!-- no-margin -->
+		<div class="demo-section container col-lg-4">
+			<div class="demo-glance">
+				<i class="far fa-file-alt"></i>
+			</div>
+			<div class="demo-primary">
+				<h2>Foundation for freight it's FreightHub</h2>
+			</div>
+			<div class="demo-secondary">
+				<p>Our mix of data technology and human logistics experts</p>
+			</div>
+			<div class="demo-cta">
+				<a href="#"><i class="fas fa-calendar"></i>Schedule a demo<i class="fas fa-angle-right"></i></a>
+			</div>
+		</div>
+		<div class="newsletter-section container col-lg-4">
+			<div class="newsletter-glance">
+				<p>Newsletter</p>
+			</div>
+			<div class="newsletter-primary">
+				<h2>Not a customer yet? Curious how FreightHub works for large organizations?</h2>
+			</div>
+			<div class="newsletter-input">
+				<input type="text" placeholder="E-mail address">
+			</div>
+			<div class="newsletter-submit">
+				<a href="#"><i class="fas fa-keyboard"></i>Subscribe<i class="fas fa-angle-right"></i></a>
+			</div>
+			<div class="newsletter-glance-2">
+				<p>With additional security, compliance, and administrative features</p>
+			</div>
 		</div>
 	</section>
 

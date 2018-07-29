@@ -10985,3 +10985,16 @@ nav .fa-angle-down {
   }
 }
 
+.demo-newsletter-section {
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  background-color: #d9e3ea;
+  border: 1px solid #eee;
+  padding: 3.5em;
+}
+
+.demo-newsletter-section h2 {
+  font-weight: lighter;
+}
+
