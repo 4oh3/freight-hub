@@ -11163,3 +11163,67 @@ nav .fa-angle-down {
   color: #aaaaaa;
 }
 
+.footer-section {
+  font-size: 0.8em;
+  font-weight: lighter;
+}
+
+.footer-section a {
+  color: black;
+}
+
+.footer-section a:hover {
+  text-decoration: none;
+}
+
+.footer-section .freighthub-text {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5em;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.footer-section .freighthub-text-container {
+  padding-top: 0.75em;
+}
+
+.footer-section .freight-text {
+  font-weight: bold;
+}
+
+.footer-section .menu-bold {
+  font-weight: bold;
+}
+
+.footer-section .last-column {
+  text-align: right;
+}
+
+.footer-section .last-column .filler {
+  opacity: 0;
+}
+
+.footer-section .last-column .filler:hover {
+  cursor: default;
+}
+
+.footer-section .dropdown-menu {
+  width: 20px !important;
+}
+
+@media (max-width: 1199px) {
+  .footer-section .filler {
+    display: none;
+  }
+
+  .footer-section .mobile-divider {
+    width: 100%;
+    border: solid 1px #eee;
+    margin-bottom: 1em;
+  }
+
+  .footer-section .last-column {
+    text-align: left;
+  }
+}
+

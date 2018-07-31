@@ -315,7 +315,8 @@
 			<div class="testimonial-card col-lg-5">
 				<div class="testimonial-card-content">
 					<p class="testimonial-quote">FreightHub has the potential to disrupt liner shipping just like Airbnb – asset-light and with pure focus on customer
-						satisfaction.</p>
+						satisfaction.
+					</p>
 					<div class="row align-items-center">
 						<div class="testimonial-image col">
 							<img src="/images/testimonial-1.jpeg" alt="Testimonial 1 Headshot">
@@ -369,7 +370,10 @@
 				<p>Our mix of data technology and human logistics experts</p>
 			</div>
 			<div class="demo-cta">
-				<a href="#"><i class="fas fa-calendar"></i>Schedule a demo<i class="fas fa-angle-right"></i></a>
+				<a href="#">
+					<i class="fas fa-calendar"></i>Schedule a demo
+					<i class="fas fa-angle-right"></i>
+				</a>
 			</div>
 		</div>
 		<div class="mobile-divider"></div>
@@ -379,13 +383,17 @@
 				<p>Newsletter</p>
 			</div>
 			<div class="newsletter-primary">
-				<h2>Not a customer yet?<br> Curious how FreightHub works for large organizations?</h2>
+				<h2>Not a customer yet?
+					<br> Curious how FreightHub works for large organizations?</h2>
 			</div>
 			<div class="newsletter-input">
 				<input type="text" placeholder="E-mail address">
 			</div>
 			<div class="newsletter-submit">
-				<a href="#"><i class="fas fa-keyboard"></i>Subscribe<i class="fas fa-angle-right"></i></a>
+				<a href="#">
+					<i class="fas fa-keyboard"></i>Subscribe
+					<i class="fas fa-angle-right"></i>
+				</a>
 			</div>
 			<div class="newsletter-secondary">
 				<p>With additional security, compliance, and administrative features</p>
@@ -397,9 +405,11 @@
 		<div class="analytics-title row no-margin justify-content-center">
 			<h2>The FreightHub Experience</h2>
 		</div>
-		<div class="analytics-stats row justify-content-center">
+		<div class="analytics-stats row no-margin justify-content-center">
 			<div class="col-lg-2">
-				<h3>94<sup>%</sup></h3>
+				<h3>94
+					<sup>%</sup>
+				</h3>
 				<p>of all shipments on time</p>
 			</div>
 			<div class="col-lg-2">
@@ -407,17 +417,129 @@
 				<p>over containers shipped</p>
 			</div>
 			<div class="col-lg-2">
-				<h3>96<sup>%</sup></h3>
+				<h3>96
+					<sup>%</sup>
+				</h3>
 				<p>of our customers would recommend FreightHub</p>
 			</div>
 			<div class="col-lg-2">
-				<h3>20<sup>H</sup></h3>
+				<h3>20
+					<sup>H</sup>
+				</h3>
 				<p>hours saved due to better processes</p>
 			</div>
 		</div>
 	</section>
 
+	<footer class="footer-section row no-margin">
+		<div class="col-xl-4">
+			<ul class="list-group">
+				<li class="list-group-item freighthub-text-container">
+					<a href="/" class="freighthub-text">
+						<span class="freight-text">Freight</span>Hub</a>
+				</li>
+			</ul>
+			<div class="mobile-divider"></div>
+		</div>
+		<div class="col-xl-2 col-sm-6">
+			<ul class="list-group">
+				<li class="list-group-item">
+					<a href="#" class="menu-bold">FreightHub</a>
+				</li class="list-group-item">
+				<li class="list-group-item">
+					<a href="#">Features</a>
+				</li class="list-group-item">
+				<li class="list-group-item">
+					<a href="#">Customer Stories</a>
+				</li class="list-group-item">
+				<li class="list-group-item">
+					<a href="#">Amazon FBA</a>
+				</li class="list-group-item">
+			</ul>
+		</div>
+		<div class="col-xl-2 col-sm-6">
+			<ul class="list-group">
+				<li class="list-group-item">
+					<a href="#" class="menu-bold">Services</a>
+				</li>
+				<li class="list-group-item">
+					<a href="#">Sea Freight</a>
+				</li>
+				<li class="list-group-item">
+					<a href="#">Air Freight</a>
+				</li>
+				<li class="list-group-item">
+					<a href="#">Rail Freight</a>
+				</li>
+				<li class="list-group-item">
+					<a href="#">Transportation</a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-xl-4 last-column">
+			<ul class="list-group">
+				<li class="list-group-item">
+					<a class="filler">Filler</a>
+				</li>
+				<li class="list-group-item">
+					<a href="#">Imprint</a>
+				</li>
+				<li class="list-group-item">
+					<a href="#">Terms of Use</a>
+				</li>
+				<li class="list-group-item">
+					<a href="#">Terms & Conditions</a>
+				</li>
+				<li class="list-group-item">
+					<a href="#">Privacy Protection</a>
+				</li>
+			</ul>
+		</div>
 
+		<div class="mobile-divider"></div>
+		<div class="col-xl-4"></div>
+		<div class="col-xl-3">
+			<ul class="list-group">
+				<li class="list-group-item">
+					<a href="#">© 2018 FreightHub. All rights reserved. </a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-xl-2">
+			<ul class="list-group">
+				<li class="list-group-item">
+					<a href="#"><i class="fab fa-forumbee"></i><i class="fab fa-facebook"></i><i class="fab fa-twitter-square"></i><i class="fab fa-trello"></i></a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-xl-2">
+			<ul class="list-group">
+				<li class="list-group-item">
+					<a href="#"><i class="fas fa-phone-square"></i>+ 44 567 958 18</a>
+				</li>
+			</ul>
+		</div>
+		<!-- <div class="col-xl-1 col-sm-6">
+			<ul class="list-group">
+				<li class="list-group-item">
+					<a href="#" class="menu-bold">EN<i class="fas fa-angle-down"></i></a>
+				</li>
+			</ul>
+		</div> -->
+
+		<div class="col-xl-1">
+				<ul class="list-group">
+					<li class="dropdown list-group-item">
+						<a class="language-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							EN<i class="fas fa-angle-down"></i>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">FR</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+	</footer>
 
 	<!-- Script Imports-->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

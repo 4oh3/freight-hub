@@ -591,7 +591,6 @@ nav {
 	// Demo Section Specific
 
 	.demo-section {
-
 		.demo-glance .far,
 		.dem-glance .fas {
 			font-size: 2.25em;
@@ -638,7 +637,6 @@ nav {
 	// Newsletter Section Specific
 
 	.newsletter-section {
-
 		.newsletter-glance {
 			p {
 				padding: 4em 0 0 0;
@@ -734,6 +732,71 @@ nav {
 
 		p {
 			color: $medium-grey;
+		}
+	}
+}
+
+.footer-section {
+	font-size: 0.8em;
+	font-weight: lighter;
+
+	a {
+		color: black;
+
+		&:hover {
+			text-decoration: none;
+			// Add something for UX
+		}
+	}
+
+	.freighthub-text {
+		font-family: $primary-font;
+		font-size: 1.5em;
+		font-weight: lighter;
+		text-transform: uppercase;
+	}
+
+	.freighthub-text-container {
+		padding-top: 0.75em;
+	}
+
+	.freight-text {
+		font-weight: bold;
+	}
+
+	.menu-bold {
+		font-weight: bold;
+	}
+
+	.last-column {
+		text-align: right;
+
+		.filler {
+			opacity: 0;
+
+			&:hover {
+				cursor: default;
+			}
+		}
+	}
+
+	.dropdown-menu {
+		width: 20px !important;
+	}
+
+	@media (max-width: 1199px) {
+		.filler {
+			display: none;
+		}
+
+		.mobile-divider {
+			width: 100%;
+			border: solid 1px $light-grey;
+			margin-bottom: 1em;
+		}
+
+		.last-column {
+			text-align: left;
 		}
 	}
 }
