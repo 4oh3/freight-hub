@@ -315,8 +315,7 @@
 			<div class="testimonial-card col-lg-5">
 				<div class="testimonial-card-content">
 					<p class="testimonial-quote">FreightHub has the potential to disrupt liner shipping just like Airbnb – asset-light and with pure focus on customer
-						satisfaction.
-					</p>
+						satisfaction.</p>
 					<div class="row align-items-center">
 						<div class="testimonial-image col">
 							<img src="/images/testimonial-1.jpeg" alt="Testimonial 1 Headshot">
@@ -357,8 +356,8 @@
 		</div>
 	</section>
 
-	<section class="demo-newsletter-section align-items-center row">
-		<!-- no-margin -->
+	<section class="demo-newsletter-section row no-margin">
+		<!-- Demo Section -->
 		<div class="demo-section container col-lg-4">
 			<div class="demo-glance">
 				<i class="far fa-file-alt"></i>
@@ -373,12 +372,14 @@
 				<a href="#"><i class="fas fa-calendar"></i>Schedule a demo<i class="fas fa-angle-right"></i></a>
 			</div>
 		</div>
+		<div class="mobile-divider"></div>
+		<!-- Newsletter Section -->
 		<div class="newsletter-section container col-lg-4">
 			<div class="newsletter-glance">
 				<p>Newsletter</p>
 			</div>
 			<div class="newsletter-primary">
-				<h2>Not a customer yet? Curious how FreightHub works for large organizations?</h2>
+				<h2>Not a customer yet?<br> Curious how FreightHub works for large organizations?</h2>
 			</div>
 			<div class="newsletter-input">
 				<input type="text" placeholder="E-mail address">
@@ -386,7 +387,7 @@
 			<div class="newsletter-submit">
 				<a href="#"><i class="fas fa-keyboard"></i>Subscribe<i class="fas fa-angle-right"></i></a>
 			</div>
-			<div class="newsletter-glance-2">
+			<div class="newsletter-secondary">
 				<p>With additional security, compliance, and administrative features</p>
 			</div>
 		</div>
