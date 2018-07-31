@@ -699,3 +699,41 @@ nav {
 		}
 	}
 }
+
+.analytics-section {
+	font-family: $primary-font;
+	background-color: #fafafa;
+	padding: 4em 0;
+	border-bottom: 1px solid $light-grey;
+
+	h2,
+	h3,
+	p,
+	sup {
+		font-weight: lighter;
+	}
+
+	.analytics-title h2 {
+		margin: 0 auto;
+		padding: 0 0 1.75em 0;
+	}
+
+	.analytics-stats {
+		text-align: center;
+
+		h3 {
+			font-size: 3.5em;
+			color: $light-blue;
+		}
+
+		sup {
+			font-size: 0.35em;
+			color: black;
+			padding-left: 0.35em;
+		}
+
+		p {
+			color: $medium-grey;
+		}
+	}
+}

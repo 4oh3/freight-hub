@@ -11125,3 +11125,41 @@ nav .fa-angle-down {
   }
 }
 
+.analytics-section {
+  font-family: "Lato", sans-serif;
+  background-color: #fafafa;
+  padding: 4em 0;
+  border-bottom: 1px solid #eee;
+}
+
+.analytics-section h2,
+.analytics-section h3,
+.analytics-section p,
+.analytics-section sup {
+  font-weight: lighter;
+}
+
+.analytics-section .analytics-title h2 {
+  margin: 0 auto;
+  padding: 0 0 1.75em 0;
+}
+
+.analytics-section .analytics-stats {
+  text-align: center;
+}
+
+.analytics-section .analytics-stats h3 {
+  font-size: 3.5em;
+  color: #22a5eb;
+}
+
+.analytics-section .analytics-stats sup {
+  font-size: 0.35em;
+  color: black;
+  padding-left: 0.35em;
+}
+
+.analytics-section .analytics-stats p {
+  color: #aaaaaa;
+}
+

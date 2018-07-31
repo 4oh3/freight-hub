@@ -393,6 +393,30 @@
 		</div>
 	</section>
 
+	<section class="analytics-section">
+		<div class="analytics-title row no-margin justify-content-center">
+			<h2>The FreightHub Experience</h2>
+		</div>
+		<div class="analytics-stats row justify-content-center">
+			<div class="col-lg-2">
+				<h3>94<sup>%</sup></h3>
+				<p>of all shipments on time</p>
+			</div>
+			<div class="col-lg-2">
+				<h3>120,000</h3>
+				<p>over containers shipped</p>
+			</div>
+			<div class="col-lg-2">
+				<h3>96<sup>%</sup></h3>
+				<p>of our customers would recommend FreightHub</p>
+			</div>
+			<div class="col-lg-2">
+				<h3>20<sup>H</sup></h3>
+				<p>hours saved due to better processes</p>
+			</div>
+		</div>
+	</section>
+
 
 
 	<!-- Script Imports-->
