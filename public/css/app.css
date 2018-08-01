@@ -10743,6 +10743,7 @@ nav .fa-angle-down {
 .features-section .far {
   font-size: 1.5em;
   padding-right: 1em;
+  color: #aaaaaa;
 }
 
 .features-section .tab-pane-container {
@@ -10806,6 +10807,7 @@ nav .fa-angle-down {
 
 .features-section .learn-more {
   color: black;
+  font-size: 0.95em;
 }
 
 .features-section .learn-more:hover {
@@ -11166,7 +11168,7 @@ nav .fa-angle-down {
 .footer-section {
   font-size: 0.825em;
   font-weight: lighter;
-  padding: 8em 0 0 0;
+  padding-top: 8em;
   background-color: #fafafa;
 }
 
