@@ -11164,66 +11164,211 @@ nav .fa-angle-down {
 }
 
 .footer-section {
-  font-size: 0.8em;
+  font-size: 0.825em;
   font-weight: lighter;
+  padding: 8em 0 0 0;
+  background-color: #fafafa;
 }
 
-.footer-section a {
+.footer-section .secondary-section {
+  padding: 4em 0 4em 0;
+}
+
+.footer-section .last-section {
+  padding-bottom: 20em;
+  background: url("/images/cargo-train.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.footer-section .last-section p {
+  margin-bottom: 0;
+  padding-bottom: 2.5em;
+}
+
+.footer-section .background-section {
+  display: none;
+  background: url("/images/cargo-train.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+
+.footer-section .list-group-item {
+  background: none;
+}
+
+.footer-section .primary-section a,
+.footer-section .secondary-section a,
+.footer-section .last-section a {
   color: black;
 }
 
-.footer-section a:hover {
+.footer-section .primary-section a:hover,
+.footer-section .secondary-section a:hover,
+.footer-section .last-section a:hover {
   text-decoration: none;
+  color: #22a5eb;
 }
 
-.footer-section .freighthub-text {
+.footer-section .primary-section .freighthub-text,
+.footer-section .secondary-section .freighthub-text,
+.footer-section .last-section .freighthub-text {
   font-family: "Lato", sans-serif;
   font-size: 1.5em;
   font-weight: lighter;
   text-transform: uppercase;
 }
 
-.footer-section .freighthub-text-container {
+.footer-section .primary-section .freighthub-text-container,
+.footer-section .secondary-section .freighthub-text-container,
+.footer-section .last-section .freighthub-text-container {
   padding-top: 0.75em;
 }
 
-.footer-section .freight-text {
+.footer-section .primary-section .freight-text,
+.footer-section .secondary-section .freight-text,
+.footer-section .last-section .freight-text {
   font-weight: bold;
 }
 
-.footer-section .menu-bold {
+.footer-section .primary-section .menu-bold,
+.footer-section .secondary-section .menu-bold,
+.footer-section .last-section .menu-bold {
   font-weight: bold;
 }
 
-.footer-section .last-column {
+.footer-section .primary-section .last-column,
+.footer-section .secondary-section .last-column,
+.footer-section .last-section .last-column {
   text-align: right;
 }
 
-.footer-section .last-column .filler {
+.footer-section .primary-section .last-column .filler,
+.footer-section .secondary-section .last-column .filler,
+.footer-section .last-section .last-column .filler {
   opacity: 0;
 }
 
-.footer-section .last-column .filler:hover {
+.footer-section .primary-section .last-column .filler:hover,
+.footer-section .secondary-section .last-column .filler:hover,
+.footer-section .last-section .last-column .filler:hover {
   cursor: default;
 }
 
-.footer-section .dropdown-menu {
-  width: 20px !important;
+.footer-section .primary-section .footer-social-icon,
+.footer-section .secondary-section .footer-social-icon,
+.footer-section .last-section .footer-social-icon {
+  font-size: 1.25em;
+  color: #aaaaaa;
+}
+
+.footer-section .primary-section .footer-social-icon i,
+.footer-section .secondary-section .footer-social-icon i,
+.footer-section .last-section .footer-social-icon i {
+  padding-right: 1em;
+}
+
+.footer-section .primary-section .fas,
+.footer-section .primary-section .far,
+.footer-section .secondary-section .fas,
+.footer-section .secondary-section .far,
+.footer-section .last-section .fas,
+.footer-section .last-section .far {
+  font-size: 1.25em;
+  vertical-align: middle;
+}
+
+.footer-section .primary-section .phone-link,
+.footer-section .secondary-section .phone-link,
+.footer-section .last-section .phone-link {
+  color: #22a5eb;
+}
+
+.footer-section .primary-section .fa-phone-square,
+.footer-section .secondary-section .fa-phone-square,
+.footer-section .last-section .fa-phone-square {
+  padding-right: 0.75em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-section .primary-section .fa-angle-down,
+.footer-section .secondary-section .fa-angle-down,
+.footer-section .last-section .fa-angle-down {
+  color: black;
+}
+
+.footer-section .primary-section .footer-site-details,
+.footer-section .secondary-section .footer-site-details,
+.footer-section .last-section .footer-site-details {
+  font-size: 0.9em;
+  color: #aaaaaa;
 }
 
 @media (max-width: 1199px) {
-  .footer-section .filler {
+  .footer-section {
+    padding-top: 0.75em;
+  }
+
+  .footer-section .primary-section .filler,
+  .footer-section .secondary-section .filler,
+  .footer-section .last-section .filler {
     display: none;
   }
 
-  .footer-section .mobile-divider {
+  .footer-section .primary-section .mobile-divider,
+  .footer-section .secondary-section .mobile-divider,
+  .footer-section .last-section .mobile-divider {
     width: 100%;
     border: solid 1px #eee;
     margin-bottom: 1em;
   }
 
-  .footer-section .last-column {
+  .footer-section .primary-section .last-column,
+  .footer-section .secondary-section .last-column,
+  .footer-section .last-section .last-column {
     text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-section .last-section {
+    background: none;
+    padding-bottom: 0;
+    height: 25vh;
+  }
+
+  .footer-section .background-section {
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-section .last-section {
+    height: 40vh;
+  }
+}
+
+@media (max-height: 850px) {
+  .footer-section .last-section {
+    height: 55vh;
+  }
+}
+
+@media (max-height: 725px) {
+  .footer-section .last-section {
+    height: 75vh;
+  }
+}
+
+@media (max-height: 575px) {
+  .footer-section .last-section {
+    height: 100vh;
   }
 }
 
