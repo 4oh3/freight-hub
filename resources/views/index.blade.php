@@ -280,23 +280,23 @@
 		<h2>The FreightHub Experience</h2>
 	</div>
 	<div class="analytics-stats row no-margin justify-content-center">
-		<div class="col-lg-2">
+		<div class="col-xl-2">
 			<h3>94
 				<sup>%</sup>
 			</h3>
 			<p>of all shipments on time</p>
 		</div>
-		<div class="col-lg-2">
+		<div class="col-xl-2">
 			<h3>120,000</h3>
 			<p>over containers shipped</p>
 		</div>
-		<div class="col-lg-2">
+		<div class="col-xl-2">
 			<h3>96
 				<sup>%</sup>
 			</h3>
 			<p>of our customers would recommend FreightHub</p>
 		</div>
-		<div class="col-lg-2">
+		<div class="col-xl-2">
 			<h3>20
 				<sup>H</sup>
 			</h3>

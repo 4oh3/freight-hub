@@ -122,49 +122,11 @@
 					</a>
 					@endif
 				</li>
-
-
-				<!-- @if (Auth::check())
-
-				<a href="{{ route('logout') }}" onclick="event.preventDefault();
-                    document.getElementById('logout-form').submit();"></a>
-				<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-					@csrf
-				</form>
-
-				@else
-				<a href="/login">
-					<li>
-						<button>Sign In / Sign Up</button>
-					</li>
-				</a>
-				@endif -->
-
-
-
-				<!-- @if (Auth::check())
-				<li class="list-group-item">
-				<a href="{{ route('logout') }}" onclick="event.preventDefault();
-                    document.getElementById('logout-form').submit();">Logout</a>
-				<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-					@csrf
-				</form>
-				</li>
-				@else
-				<li class="list-group-item">
-					<a href="/register" class="signup-button">Signup Now</a>
-				</li>
-				@endif -->
-
-
 			</ul>
 			<div class="mobile-divider"></div>
 		</div>
 		<div class="col-xl-2">
 			<ul class="list-group">
-				<!-- <li class="list-group-item">
-					<a href="#" class="signup-button">Signup Now</a>
-				</li> -->
 				@if (Auth::check())
 				<li class="list-group-item">
 				<a href="{{ route('logout') }}" class="signup-button" onclick="event.preventDefault();
@@ -187,7 +149,7 @@
 	<footer class="footer-section">
 		<div class="primary-section row no-margin">
 			<div class="col-xl-4">
-				<!-- <ul class="list-group"> -->
+				<ul class="list-group">
 				<li class="list-group-item freighthub-text-container">
 					<a href="/" class="freighthub-text">
 						<span class="freight-text">Freight</span>Hub</a>
