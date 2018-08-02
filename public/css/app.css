@@ -10474,6 +10474,10 @@ a.text-dark:focus {
   padding: 0;
 }
 
+.row.no-margin {
+  margin: 0 !important;
+}
+
 .navbar-toggler {
   border: none;
   padding: 1em;
@@ -10484,8 +10488,10 @@ a.text-dark:focus {
   border: none;
 }
 
-.row.no-margin {
-  margin: 0 !important;
+.dropdown-menu {
+  font-family: "Lato", sans-serif;
+  border: 1px solid #eee;
+  border-radius: 0;
 }
 
 button:focus {
@@ -11094,8 +11100,9 @@ nav .fa-angle-down {
 }
 
 .demo-newsletter-section .newsletter-section .newsletter-input input:focus {
-  outline: none;
-  border: 2px solid #22a5eb;
+  outline: 2px solid #22a5eb;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .demo-newsletter-section .newsletter-section .newsletter-input input::-webkit-input-placeholder {
@@ -11388,5 +11395,87 @@ nav .fa-angle-down {
   .footer-section .last-section {
     height: 100vh;
   }
+}
+
+.login-card,
+.register-card,
+.password-reset-card {
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  border: 1px solid #eee;
+  border-radius: 0;
+  margin: 5em auto;
+}
+
+.login-card .card-header,
+.register-card .card-header,
+.password-reset-card .card-header {
+  background-color: #eee;
+  border-radius: 0;
+  border-bottom: none;
+}
+
+.login-card .form-control,
+.register-card .form-control,
+.password-reset-card .form-control {
+  border-radius: 0;
+  border: 1px solid #eee;
+}
+
+.login-card .form-control:focus,
+.register-card .form-control:focus,
+.password-reset-card .form-control:focus {
+  outline: 2px solid #22a5eb;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.login-card .btn,
+.register-card .btn,
+.password-reset-card .btn {
+  border-radius: 0;
+  padding: 0.75em 1.5em;
+  font-weight: lighter;
+}
+
+.login-card .btn-primary,
+.register-card .btn-primary,
+.password-reset-card .btn-primary {
+  background-color: #22a5eb;
+  border: none;
+}
+
+.login-card .btn-primary:hover,
+.register-card .btn-primary:hover,
+.password-reset-card .btn-primary:hover {
+  background-color: #1499df;
+}
+
+.login-card .btn-link,
+.register-card .btn-link,
+.password-reset-card .btn-link {
+  font-weight: lighter;
+  color: #22a5eb;
+}
+
+.login-card .btn-link:hover,
+.register-card .btn-link:hover,
+.password-reset-card .btn-link:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-card .invalid-feedback,
+.register-card .invalid-feedback,
+.password-reset-card .invalid-feedback {
+  font-family: "Lato", sans-serif;
+}
+
+.login-card .form-control.is-invalid,
+.register-card .form-control.is-invalid,
+.password-reset-card .form-control.is-invalid {
+  outline: 2px solid #dc3545;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 

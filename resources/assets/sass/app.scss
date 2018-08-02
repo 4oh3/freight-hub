@@ -11,6 +11,10 @@
 }
 
 // Bootstrap Mods
+.row.no-margin {
+	margin: 0 !important;
+}
+
 .navbar-toggler {
 	border: none;
 	padding: 1em;
@@ -21,8 +25,10 @@
 	border: none;
 }
 
-.row.no-margin {
-	margin: 0 !important;
+.dropdown-menu {
+	font-family: $primary-font;
+	border: 1px solid $light-grey;
+	border-radius: 0;
 }
 
 // Globals
@@ -665,8 +671,8 @@ nav {
 				text-align: center;
 
 				&:focus {
-					outline: none;
-					border: 2px solid $light-blue;
+					outline: 2px solid $light-blue;
+					box-shadow: none;
 				}
 
 				&::placeholder {
@@ -916,5 +922,67 @@ nav {
 		.last-section {
 			height: 100vh;
 		}
+	}
+}
+
+// Login / Signup / Forgot Password Pages
+
+.login-card,
+.register-card,
+.password-reset-card {
+	font-family: $primary-font;
+	font-weight: lighter;
+	border: 1px solid $light-grey;
+	border-radius: 0;
+	margin: 5em auto;
+
+	.card-header {
+		background-color: $light-grey;
+		border-radius: 0;
+		border-bottom: none;
+	}
+
+	.form-control {
+		border-radius: 0;
+		border: 1px solid $light-grey;
+
+		&:focus {
+			outline: 2px solid $light-blue;
+			box-shadow: none;
+		}
+	}
+
+	.btn {
+		border-radius: 0;
+		padding: 0.75em 1.5em;
+		font-weight: lighter;
+	}
+
+	.btn-primary {
+		background-color: $light-blue;
+		border: none;
+
+		&:hover {
+			background-color: $darker-light-blue;
+		}
+	}
+
+	.btn-link {
+		font-weight: lighter;
+		color: $light-blue;
+
+		&:hover {
+			text-decoration: none;
+			font-weight: bold;
+		}
+	}
+
+	.invalid-feedback {
+		font-family: $primary-font;
+	}
+
+	.form-control.is-invalid {
+		outline: 2px solid #dc3545;
+		box-shadow: none;
 	}
 }
