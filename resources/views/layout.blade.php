@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    	<nav class="navbar-expand-xl navbar-light">
+	<nav class="navbar-expand-xl navbar-light">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
 		 aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -106,38 +106,92 @@
 					<a href="#">FAQ</a>
 				</li>
 			</ul>
+			@if (Auth::check()) @else
 			<div class="mobile-divider"></div>
+			@endif
 		</div>
 		<div class="col-xl-2">
 			<ul class="list-group">
 				<li class="list-group-item">
-					<a href="#" class="menu-bold">
+					@if (Auth::check())
+					<a href="#" class="menu-bold"></a>
+					@else
+					<a href="/login" class="menu-bold">
 						<i class="fas fa-user-circle"></i>Sign In
 						<i class="fas fa-angle-right"></i>
 					</a>
+					@endif
 				</li>
+
+
+				<!-- @if (Auth::check())
+
+				<a href="{{ route('logout') }}" onclick="event.preventDefault();
+                    document.getElementById('logout-form').submit();"></a>
+				<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+					@csrf
+				</form>
+
+				@else
+				<a href="/login">
+					<li>
+						<button>Sign In / Sign Up</button>
+					</li>
+				</a>
+				@endif -->
+
+
+
+				<!-- @if (Auth::check())
+				<li class="list-group-item">
+				<a href="{{ route('logout') }}" onclick="event.preventDefault();
+                    document.getElementById('logout-form').submit();">Logout</a>
+				<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+					@csrf
+				</form>
+				</li>
+				@else
+				<li class="list-group-item">
+					<a href="/register" class="signup-button">Signup Now</a>
+				</li>
+				@endif -->
+
+
 			</ul>
 			<div class="mobile-divider"></div>
 		</div>
 		<div class="col-xl-2">
 			<ul class="list-group">
-				<li class="list-group-item">
+				<!-- <li class="list-group-item">
 					<a href="#" class="signup-button">Signup Now</a>
+				</li> -->
+				@if (Auth::check())
+				<li class="list-group-item">
+				<a href="{{ route('logout') }}" class="signup-button" onclick="event.preventDefault();
+                    document.getElementById('logout-form').submit();">Logout</a>
+				<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+					@csrf
+				</form>
 				</li>
+				@else
+				<li class="list-group-item">
+					<a href="/register" class="signup-button">Signup Now</a>
+				</li>
+				@endif
 			</ul>
 		</div>
-    </div>
-    
-    @yield('content')
+	</div>
+
+	@yield('content')
 
 	<footer class="footer-section">
 		<div class="primary-section row no-margin">
 			<div class="col-xl-4">
 				<!-- <ul class="list-group"> -->
-					<li class="list-group-item freighthub-text-container">
-						<a href="/" class="freighthub-text">
-							<span class="freight-text">Freight</span>Hub</a>
-					</li>
+				<li class="list-group-item freighthub-text-container">
+					<a href="/" class="freighthub-text">
+						<span class="freight-text">Freight</span>Hub</a>
+				</li>
 				</ul>
 				<div class="mobile-divider"></div>
 			</div>
@@ -263,7 +317,8 @@
 							<br>Access to https://www.freighthub.com/webselfservice/index.html is subject to FCA's Privacy Policy and Terms of Use.
 						</p>
 						<p>FreightHub has the potential to disrupt liner shipping just like Airbnb - asset-light and with a pure focus on customer
-							satisfaction</p>
+							satisfaction
+						</p>
 						<p>FreightHub is revolutionizing international freight forwarding by providing real-time quotes and insights, digitizing
 							old processes, and delivering transparency to it's customers. We are a full-service freight forwarder, offering global
 							FCL, LCL and air transportation, and we are driven by technology and a strong team of experienced logistics specialists.</p>
