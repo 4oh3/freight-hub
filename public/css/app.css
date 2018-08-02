@@ -10849,6 +10849,10 @@ nav .fa-angle-down {
 }
 
 @media (max-width: 991px) {
+  .features-section .tab-pane-container {
+    padding: 4.5em 0;
+  }
+
   .features-section .tab-image {
     display: none;
   }
@@ -10898,6 +10902,10 @@ nav .fa-angle-down {
 }
 
 @media (max-width: 992px) {
+  .hero-testimonial-section .primary-testimonial {
+    margin: 2.5em auto;
+  }
+
   .hero-testimonial-section .testimonial-image {
     text-align: center;
     padding-bottom: 0.5em;
@@ -10918,6 +10926,10 @@ nav .fa-angle-down {
 }
 
 @media (max-width: 992px) {
+  .customers-logos-section .company-logos {
+    margin: 2.5em auto;
+  }
+
   .customers-logos-section .company-logos div {
     padding: 0.5em 0;
     text-align: center;
@@ -10980,11 +10992,15 @@ nav .fa-angle-down {
 
 @media (max-width: 992px) {
   .testimonials-section .testimonial-card:nth-of-type(1) {
-    margin-bottom: 3.5em;
+    margin-bottom: 1em;
   }
 
   .testimonials-section .testimonial-card .testimonial-card-content .testimonial-quote {
     padding-bottom: 1em;
+  }
+
+  .testimonials-section .testimonial-cta {
+    margin: 3em;
   }
 }
 
@@ -11142,7 +11158,7 @@ nav .fa-angle-down {
 }
 
 .analytics-section .analytics-title h2 {
-  margin: 0 auto;
+  text-align: center;
   padding: 0 0 1.75em 0;
 }
 
