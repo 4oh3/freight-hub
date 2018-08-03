@@ -10486,6 +10486,7 @@ a.text-dark:focus {
 
 .list-group-item {
   border: none;
+  background-color: transparent;
 }
 
 .dropdown-menu {
@@ -10563,14 +10564,14 @@ nav .fa-angle-down {
   padding-top: 0.5em;
 }
 
-.secondary-nav .freighthub-text {
+.secondary-nav .freighthub-text-container .freighthub-text {
   font-family: "Lato", sans-serif;
   font-size: 1.75em;
   font-weight: lighter;
   text-transform: uppercase;
 }
 
-.secondary-nav .freight-text {
+.secondary-nav .freighthub-text-container .freight-text {
   font-weight: bold;
 }
 
@@ -11451,6 +11452,13 @@ nav .fa-angle-down {
   background-color: #1499df;
 }
 
+.login-card .btn-primary:active,
+.register-card .btn-primary:active,
+.password-reset-card .btn-primary:active {
+  background-color: #1499df;
+  outline: none;
+}
+
 .login-card .btn-link,
 .register-card .btn-link,
 .password-reset-card .btn-link {
@@ -11477,5 +11485,97 @@ nav .fa-angle-down {
   outline: 2px solid #dc3545;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+.secondary-nav-hidden .freighthub-text-container {
+  padding-top: 0.5em;
+}
+
+.secondary-nav-hidden .freighthub-text-container .freighthub-text {
+  font-family: "Lato", sans-serif;
+  font-size: 1.75em;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.secondary-nav-hidden .freighthub-text-container .freight-text {
+  font-weight: bold;
+}
+
+.secondary-nav-hidden .menu-toggle {
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  background-color: #eee;
+  padding: 1em 2.5em;
+}
+
+.secondary-nav-hidden .menu-toggle:hover {
+  background-color: #aaaaaa;
+}
+
+.secondary-nav-hidden .menu-toggle .fa-angle-down {
+  padding-left: 0.75em;
+  color: black;
+}
+
+.secondary-nav-hidden .dropdown-toggle::after {
+  display: none;
+}
+
+.secondary-nav-hidden .menu-column {
+  padding: 0;
+}
+
+.secondary-nav-hidden .dropdown-item {
+  border-radius: 0;
+}
+
+.secondary-nav-hidden .dropdown-item:active {
+  background-color: #eee !important;
+}
+
+.secondary-nav-hidden .dropdown-item:hover {
+  background-color: #f4f4f4;
+}
+
+.secondary-nav-hidden a {
+  color: black;
+  font-weight: lighter;
+}
+
+.secondary-nav-hidden a:hover {
+  text-decoration: none;
+}
+
+.secondary-nav-hidden .menu-bold {
+  font-weight: bold;
+}
+
+.secondary-nav-hidden .fa-user-circle {
+  padding-right: 0.75em;
+}
+
+.secondary-nav-hidden .fa-angle-right {
+  padding-left: 0.75em;
+  color: black;
+}
+
+.secondary-nav-hidden .signup-button {
+  background-color: #22a5eb;
+  color: white;
+  padding: 0.9em 1.25em;
+  font-weight: lighter;
+}
+
+.secondary-nav-hidden .signup-button:hover {
+  background-color: #1499df;
+}
+
+.secondary-nav-hidden .dropdown-item.no-hover:active {
+  background-color: transparent !important;
+}
+
+.secondary-nav-hidden .dropdown-item.no-hover:hover {
+  background-color: transparent;
 }
 
