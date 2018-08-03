@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-lg-8">
-            <div class="card register-card">
+            <div class="card register-card" id="register">
                 <div class="card-header">{{ __('Sign Up') }}</div>
 
                 <div class="card-body">

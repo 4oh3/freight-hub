@@ -935,9 +935,10 @@ nav {
 	font-weight: lighter;
 	border: 1px solid $light-grey;
 	border-radius: 0;
-	margin: 7.5em auto 13.25em;
+	margin: 2em auto 15em;
 
 	.card-header {
+		color: white;
 		background-color: $light-blue;
 		border-radius: 0;
 		border-bottom: none;
@@ -1101,3 +1102,60 @@ nav {
 // 		}
 // 	}
 // }
+
+// My Orders Page
+
+.my-account {
+	margin: 5em auto;
+	font-family: $primary-font;
+	font-weight: lighter;
+
+	.my-account-greeting {
+		text-align: center;
+		margin-bottom: 2.5em;
+
+		.greeting-name {
+			color: $light-blue;
+		}
+	}
+
+	.card {
+		border: 1px solid $light-grey;
+		border-radius: 0;
+		padding: 0;
+		margin: 2em 0;
+
+		.card-header {
+			color: white;
+			background-color: $light-blue;
+			border-radius: 0;
+			border-bottom: none;
+		}
+
+		.btn {
+			border-radius: 0;
+			padding: 0.75em 1.5em;
+			font-weight: lighter;
+		}
+
+		.btn-primary {
+			background-color: $light-blue;
+			border: none;
+
+			&:hover {
+				background-color: $darker-light-blue;
+			}
+
+			&:active {
+				background-color: $darker-light-blue;
+				outline: none;
+			}
+		}
+	}
+
+	@media (max-width: 1199px) {
+		.card {
+			margin: 0.5em 0;
+		}
+	}
+}

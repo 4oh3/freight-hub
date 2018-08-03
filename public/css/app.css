@@ -11405,12 +11405,13 @@ nav .fa-angle-down {
   font-weight: lighter;
   border: 1px solid #eee;
   border-radius: 0;
-  margin: 7.5em auto 13.25em;
+  margin: 2em auto 15em;
 }
 
 .login-card .card-header,
 .register-card .card-header,
 .password-reset-card .card-header {
+  color: white;
   background-color: #22a5eb;
   border-radius: 0;
   border-bottom: none;
@@ -11485,5 +11486,60 @@ nav .fa-angle-down {
   outline: 2px solid #dc3545;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+.my-account {
+  margin: 5em auto;
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+}
+
+.my-account .my-account-greeting {
+  text-align: center;
+  margin-bottom: 2.5em;
+}
+
+.my-account .my-account-greeting .greeting-name {
+  color: #22a5eb;
+}
+
+.my-account .card {
+  border: 1px solid #eee;
+  border-radius: 0;
+  padding: 0;
+  margin: 2em 0;
+}
+
+.my-account .card .card-header {
+  color: white;
+  background-color: #22a5eb;
+  border-radius: 0;
+  border-bottom: none;
+}
+
+.my-account .card .btn {
+  border-radius: 0;
+  padding: 0.75em 1.5em;
+  font-weight: lighter;
+}
+
+.my-account .card .btn-primary {
+  background-color: #22a5eb;
+  border: none;
+}
+
+.my-account .card .btn-primary:hover {
+  background-color: #1499df;
+}
+
+.my-account .card .btn-primary:active {
+  background-color: #1499df;
+  outline: none;
+}
+
+@media (max-width: 1199px) {
+  .my-account .card {
+    margin: 0.5em 0;
+  }
 }
 

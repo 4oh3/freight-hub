@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-lg-8">
-            <div class="card login-card">
+            <div class="card login-card" id="sign-in">
                 <div class="card-header">{{ __('Sign In') }}</div>
 
                 <div class="card-body">
@@ -57,7 +57,7 @@
                                     {{ __('Sign In') }}
                                 </button>
 
-                                <a class="btn btn-link" href="{{ route('password.request') }}">
+                                <a class="btn btn-link" href="{{ route('password.request') }}/#reset">
                                     {{ __('Forgot Your Password?') }}
                                 </a>
                             </div>

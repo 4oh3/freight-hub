@@ -25,7 +25,7 @@
 				</li class="list-group-item">
 				<li class="list-group-item">
 					<a href="#">Amazon FBA</a>
-				</li class="list-group-item">
+				</li>
 			</ul>
 			<div class="mobile-divider"></div>
 		</div>
