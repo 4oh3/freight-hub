@@ -2,6 +2,83 @@
 
 @section('content')
 
+<!-- <div class="secondary-nav row no-margin">
+		<div class="col-xl-4">
+			<ul class="list-group">
+				<li class="list-group-item freighthub-text-container">
+					<a href="/" class="freighthub-text">
+						<span class="freight-text">Freight</span>Hub</a>
+				</li>
+			</ul>
+			<div class="mobile-divider"></div>
+		</div>
+		<div class="col-xl-2">
+			<ul class="list-group">
+				<li class="list-group-item">
+					<a href="#" class="menu-bold">Freight Hub</a>
+				</li class="list-group-item">
+				<li class="list-group-item">
+					<a href="#">Features</a>
+				</li class="list-group-item">
+				<li class="list-group-item">
+					<a href="#">Customer Stories</a>
+				</li class="list-group-item">
+				<li class="list-group-item">
+					<a href="#">Amazon FBA</a>
+				</li class="list-group-item">
+			</ul>
+			<div class="mobile-divider"></div>
+		</div>
+		<div class="col-xl-2">
+			<ul class="list-group">
+				<li class="list-group-item">
+					<a href="#" class="menu-bold">About Us</a>
+				</li>
+				<li class="list-group-item">
+					<a href="#">Company</a>
+				</li>
+				<li class="list-group-item">
+					<a href="#">FAQ</a>
+				</li>
+			</ul>
+			@if (Auth::check()) @else
+			<div class="mobile-divider"></div>
+			@endif
+		</div>
+		<div class="col-xl-2">
+			<ul class="list-group">
+				<li class="list-group-item">
+					@if (Auth::check())
+					<a href="#" class="menu-bold"></a>
+					@else
+					<a href="/login" class="menu-bold">
+						<i class="fas fa-user-circle"></i>Sign In
+						<i class="fas fa-angle-right"></i>
+					</a>
+					@endif
+				</li>
+			</ul>
+			<div class="mobile-divider"></div>
+		</div>
+		<div class="col-xl-2">
+			<ul class="list-group">
+				@if (Auth::check())
+				<li class="list-group-item">
+				<a href="{{ route('logout') }}" class="signup-button" onclick="event.preventDefault();
+                    document.getElementById('logout-form').submit();">Logout</a>
+				<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+					@csrf
+				</form>
+				</li>
+				@else
+				<li class="list-group-item">
+					<a href="/register" class="signup-button">Signup Now</a>
+				</li>
+				@endif
+			</ul>
+		</div>
+	</div> -->
+
 <section class="hero-section row align-items-center">
 	<div class="container">
 		<div class="hero-title">

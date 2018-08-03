@@ -4,7 +4,7 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-// require('./bootstrap');
+require('./bootstrap');
 
 // window.Vue = require('vue');
 
@@ -22,3 +22,8 @@
 
 //  //  //  //  //  //  Custom JS //  //  //  //  //  //
 
+// $(document).ready(function () {
+//     if ($('#dropdown-menu').hasClass('show')) {
+//         $('#body').addClass('blur');
+//     }
+// });

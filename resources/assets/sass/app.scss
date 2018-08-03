@@ -935,10 +935,10 @@ nav {
 	font-weight: lighter;
 	border: 1px solid $light-grey;
 	border-radius: 0;
-	margin: 5em auto;
+	margin: 7.5em auto 13.25em;
 
 	.card-header {
-		background-color: $light-grey;
+		background-color: $light-blue;
 		border-radius: 0;
 		border-bottom: none;
 	}
@@ -993,98 +993,111 @@ nav {
 	}
 }
 
-.secondary-nav-hidden {
-	.freighthub-text-container {
-		padding-top: 0.5em;
+// .secondary-nav-hidden {
+// 	.freighthub-text-container {
+// 		padding-top: 0.5em;
 
-		.freighthub-text {
-			font-family: $primary-font;
-			font-size: 1.75em;
-			font-weight: lighter;
-			text-transform: uppercase;
-		}
+// 		.freighthub-text {
+// 			font-family: $primary-font;
+// 			font-size: 1.75em;
+// 			font-weight: lighter;
+// 			text-transform: uppercase;
+// 		}
 
-		.freight-text {
-			font-weight: bold;
-		}
-	}
+// 		.freight-text {
+// 			font-weight: bold;
+// 		}
+// 	}
 
-	.menu-toggle {
-		font-family: $primary-font;
-		font-weight: normal;
-		background-color: $light-grey;
-		padding: 1em 2.5em;
+// 	.dropdown {
+// 		margin-top: 1.2em;
+// 		padding-left: 2.3em;
+// 	}
 
-		&:hover {
-			background-color: $medium-grey;
-		}
+// 	.dropdown-menu {
+// 		// background-color: blue;
+// 	}
 
-		.fa-angle-down {
-			padding-left: 0.75em;
-			color: black;
-		}
-	}
+// 	.menu-toggle {
+// 		font-family: $primary-font;
+// 		font-weight: normal;
+// 		background-color: $light-grey;
+// 		padding: 1em 2.5em;
 
-	.dropdown-toggle::after {
-		display: none;
-	}
+// 		&:hover {
+// 			background-color: $medium-grey;
+// 		}
 
-	.menu-column {
-		padding: 0;
-	}
+// 		.fa-angle-down {
+// 			padding-left: 0.75em;
+// 			color: black;
+// 		}
+// 	}
 
-	.dropdown-item {
-		border-radius: 0;
+// 	// .blur {
+// 	// 	filter: blur(1px);
+// 	// }
 
-		&:active {
-			background-color: $light-grey !important;
-		}
+// 	.dropdown-toggle::after {
+// 		display: none;
+// 	}
 
-		&:hover {
-			background-color: $even-lighter-grey;
-		}
-	}
+// 	.menu-column {
+// 		padding: 0;
+// 	}
 
-	a {
-		color: black;
-		font-weight: lighter;
+// 	.dropdown-item {
+// 		border-radius: 0;
 
-		&:hover {
-			text-decoration: none;
-		}
-	}
+// 		&:active {
+// 			background-color: $light-grey !important;
+// 		}
 
-	.menu-bold {
-		font-weight: bold;
-	}
+// 		&:hover {
+// 			background-color: $even-lighter-grey;
+// 		}
+// 	}
 
-	.fa-user-circle {
-		padding-right: 0.75em;
-	}
+// 	a {
+// 		color: black;
+// 		font-weight: lighter;
 
-	.fa-angle-right {
-		padding-left: 0.75em;
-		color: black;
-	}
+// 		&:hover {
+// 			text-decoration: none;
+// 		}
+// 	}
 
-	.signup-button {
-		background-color: $light-blue;
-		color: white;
-		padding: 0.9em 1.25em;
-		font-weight: lighter;
+// 	.menu-bold {
+// 		font-weight: bold;
+// 	}
 
-		&:hover {
-			background-color: $darker-light-blue;
-		}
-	}
+// 	.fa-user-circle {
+// 		padding-right: 0.75em;
+// 	}
 
-	.dropdown-item.no-hover {
-		&:active {
-			background-color: transparent !important;
-		}
+// 	.fa-angle-right {
+// 		padding-left: 0.75em;
+// 		color: black;
+// 	}
 
-		&:hover {
-			background-color: transparent;
-		}
-	}
-}
+// 	.signup-button {
+// 		background-color: $light-blue;
+// 		color: white;
+// 		padding: 0.9em 1.25em;
+// 		font-weight: lighter;
+
+// 		&:hover {
+// 			background-color: $darker-light-blue;
+// 		}
+// 	}
+
+// 	.dropdown-item.no-hover {
+// 		&:active {
+// 			background-color: transparent !important;
+// 		}
+
+// 		&:hover {
+// 			background-color: transparent;
+// 		}
+// 	}
+// }
