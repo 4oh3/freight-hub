@@ -6,7 +6,8 @@
 
 Route::get('/', 'IndexController@create');
 
-Route::get('/myaccount', 'MyAccountController@create');
+Route::get('/myaccount', 'MyAccountController@create')->
+    middleware('auth');
 
 /*--------------------------------------------------------------------------
 | Auth
