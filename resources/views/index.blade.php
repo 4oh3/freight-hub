@@ -86,7 +86,7 @@
 			<h2>Forwarder</h2>
 		</div>
 		<div class="hero-description">
-			<p>Ship more freight, faster and cheaper</p>
+			<p>Ship more freight faster and cheaper</p>
 			<p>Modern freight forwarding made easy</p>
 		</div>
 		<div class="hero-cta">
